@@ -32,19 +32,22 @@ jobs:
         run: |
           python -m playwright install --with-deps
 
-      # 5️⃣ Run replay tests + generate rich HTML report
+      # 🧹 5️⃣ HARD CLEAN OLD REPORTS (CRITICAL)
+      - name: Clean old reports
+        run: |
+          rm -rf reports
+          rm -rf playwright-report
+
+      # 6️⃣ Run replay verification (GENERATES REPORT)
       - name: Run replay verification
         run: |
           mkdir -p reports/screenshots
-          pytest tests/test_replay.py \
-            --html=reports/replay-report.html \
-            --self-contained-html \
-            -v
+          pytest tests/test_replay.py -v
 
-      # 6️⃣ Upload FULL replay report (HTML + screenshots)
-      - name: Upload replay artifacts
+      # 7️⃣ Upload ONLY replay report
+      - name: Upload replay report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: replay-report
+          name: replay-verification-report
           path: reports/
