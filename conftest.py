@@ -1,6 +1,13 @@
 import pytest
+import base64
+import os
 from recorder.report_context import STEP_RESULTS
 from pytest_html import extras
+
+
+def _img_to_base64(path: str) -> str:
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode("utf-8")
 
 
 @pytest.hookimpl(hookwrapper=True)
@@ -9,6 +16,8 @@ def pytest_runtest_makereport(item, call):
     report = outcome.get_result()
 
     if report.when == "call" and STEP_RESULTS:
+        extra = getattr(report, "extras", [])
+
         html = "<h2>Replay Verification Details</h2>"
 
         for step in STEP_RESULTS:
@@ -17,17 +26,20 @@ def pytest_runtest_makereport(item, call):
             <b>Step:</b> {step['step']}<br>
             <b>URL:</b> {step['url']}<br>
             <b>Status:</b> {step['status']}<br>
-            <b>Recorded FirstP:</b><br>
+            <b>Recorded FirstP:</b>
             <pre>{step['recorded']}</pre>
-            <b>Live FirstP:</b><br>
+            <b>Live FirstP:</b>
             <pre>{step['live']}</pre>
             """
 
-            if step.get("screenshot"):
+            # ✅ EMBED SCREENSHOT VIA BASE64 (ALWAYS WORKS)
+            screenshot = step.get("screenshot")
+            if screenshot and os.path.exists(screenshot):
+                encoded = _img_to_base64(screenshot)
                 html += f"""
                 <b>Screenshot:</b><br>
-                <img src="{step['screenshot']}" width="600">
+                <img src="data:image/png;base64,{encoded}" width="700"><br>
                 """
 
-        report.extras = getattr(report, "extras", [])
-        report.extras.append(extras.html(html))
+        extra.append(extras.html(html))
+        report.extras = extra
