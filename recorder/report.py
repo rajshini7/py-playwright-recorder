@@ -1,59 +1,80 @@
-from playwright.sync_api import sync_playwright
-from recorder.login import login
-from recorder.content import extract_content
-from recorder.steps_store import load_steps
-from recorder.report_context import add_step_result
-import os
+from pathlib import Path
+from datetime import datetime
+import html
+import base64
 
+def _img_to_base64(path):
+    if not path or not Path(path).exists():
+        return ""
+    data = Path(path).read_bytes()
+    return base64.b64encode(data).decode("utf-8")
 
-def replay(base_url, username, password):
-    steps = load_steps()
+def generate_report(results, output_path="reports/replay-report.html"):
+    reports_dir = Path("reports")
+    reports_dir.mkdir(exist_ok=True)
 
-    if not steps:
-        raise RuntimeError("No recorded steps found")
+    rows = []
+    for r in results:
+        status_color = "#d4edda" if r["status"] == "PASS" else "#f8d7da"
+        screenshot_html = ""
 
-    os.makedirs("reports/screenshots", exist_ok=True)
+        if r["status"] == "FAIL" and r.get("screenshot"):
+            img64 = _img_to_base64(r["screenshot"])
+            screenshot_html = f"""
+            <div style="margin-top:10px">
+                <b>Failure Screenshot:</b><br/>
+                <img src="data:image/png;base64,{img64}"
+                     style="max-width:100%; border:1px solid #333"/>
+            </div>
+            """
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+        rows.append(f"""
+        <tr style="background-color:{status_color}">
+            <td>{r['step']}</td>
+            <td>
+              <a href="{html.escape(r['url'])}" target="_blank">
+                {html.escape(r['url'])}
+              </a>
+            </td>
+            <td>{html.escape(r['recorded'])}</td>
+            <td>
+                {html.escape(r['live'])}
+                {screenshot_html}
+            </td>
+            <td><b>{r['status']}</b></td>
+        </tr>
+        """)
 
-        login(page, base_url, username, password)
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Replay Verification Report</title>
+        <style>
+            body {{ font-family: Arial, sans-serif; padding: 20px; }}
+            table {{ border-collapse: collapse; width: 100%; }}
+            th, td {{ border: 1px solid #ccc; padding: 8px; vertical-align: top; }}
+            th {{ background-color: #333; color: white; }}
+            td {{ white-space: pre-wrap; }}
+        </style>
+    </head>
+    <body>
+        <h1>Replay Verification Report</h1>
+        <p><b>Generated:</b> {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
 
-        for index, step in enumerate(steps, start=1):
-            target_url = step["target_url"]
-            recorded_first_p = step["content"]["firstP"]
+        <table>
+            <tr>
+                <th>Step</th>
+                <th>URL</th>
+                <th>Recorded firstP</th>
+                <th>Live firstP / Screenshot</th>
+                <th>Status</th>
+            </tr>
+            {''.join(rows)}
+        </table>
+    </body>
+    </html>
+    """
 
-            page.goto(target_url)
-            live = extract_content(page)
-            live_first_p = live["firstP"]
-
-            if live_first_p == recorded_first_p:
-                add_step_result(
-                    step=index,
-                    url=target_url,
-                    recorded=recorded_first_p,
-                    live=live_first_p,
-                    status="PASSED"
-                )
-            else:
-                screenshot_path = f"reports/screenshots/step_{index}.png"
-                page.screenshot(path=screenshot_path)
-
-                add_step_result(
-                    step=index,
-                    url=target_url,
-                    recorded=recorded_first_p,
-                    live=live_first_p,
-                    status="FAILED",
-                    screenshot=screenshot_path
-                )
-
-                raise AssertionError(
-                    f"\n❌ Replay verification failed at step {index}\n"
-                    f"URL: {target_url}\n\n"
-                    f"Recorded:\n{recorded_first_p}\n\n"
-                    f"Live:\n{live_first_p}\n"
-                )
-
-        browser.close()
+    Path(output_path).write_text(html_content, encoding="utf-8")
