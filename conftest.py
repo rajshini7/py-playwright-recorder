@@ -32,10 +32,8 @@ def pytest_runtest_makereport(item, call):
             <pre>{step['live']}</pre>
             """
 
-            # ✅ EMBED SCREENSHOT VIA BASE64 (ALWAYS WORKS)
-            screenshot = step.get("screenshot")
-            if screenshot and os.path.exists(screenshot):
-                encoded = _img_to_base64(screenshot)
+            if step.get("screenshot"):
+                encoded = _img_to_base64(step["screenshot"])
                 html += f"""
                 <b>Screenshot:</b><br>
                 <img src="data:image/png;base64,{encoded}" width="700"><br>
@@ -43,3 +41,6 @@ def pytest_runtest_makereport(item, call):
 
         extra.append(extras.html(html))
         report.extras = extra
+
+        # 🔥 THIS LINE REMOVES THE GREY STACK TRACE
+        report.longrepr = None
