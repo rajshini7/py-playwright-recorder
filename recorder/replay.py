@@ -2,63 +2,58 @@ from playwright.sync_api import sync_playwright
 from recorder.login import login
 from recorder.content import extract_content
 from recorder.steps_store import load_steps
-from recorder.report import generate_report
-from pathlib import Path
+from recorder.report_context import add_step_result
+import os
 
-def normalize(text):
-    if not text:
-        return ""
-    return " ".join(text.split()).strip()
 
 def replay(base_url, username, password):
     steps = load_steps()
-    results = []
-    failed = False
 
-    screenshots_dir = Path("reports/screenshots")
-    screenshots_dir.mkdir(parents=True, exist_ok=True)
+    if not steps:
+        raise RuntimeError("No recorded steps found")
+
+    os.makedirs("reports/screenshots", exist_ok=True)
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
-        # Login
         login(page, base_url, username, password)
 
         for index, step in enumerate(steps, start=1):
             target_url = step["target_url"]
-            recorded = normalize(step["content"].get("firstP"))
+            recorded_first_p = step["content"]["firstP"]
 
             page.goto(target_url)
-            live = normalize(extract_content(page).get("firstP"))
+            live = extract_content(page)
+            live_first_p = live["firstP"]
 
-            status = "PASS" if recorded == live else "FAIL"
-            screenshot_path = None
+            if live_first_p == recorded_first_p:
+                add_step_result(
+                    step=index,
+                    url=target_url,
+                    recorded=recorded_first_p,
+                    live=live_first_p,
+                    status="PASSED"
+                )
+            else:
+                screenshot_path = f"reports/screenshots/step_{index}.png"
+                page.screenshot(path=screenshot_path)
 
-            if status == "FAIL":
-                failed = True
-                screenshot_path = screenshots_dir / f"step_{index}.png"
-                page.screenshot(path=str(screenshot_path), full_page=True)
+                add_step_result(
+                    step=index,
+                    url=target_url,
+                    recorded=recorded_first_p,
+                    live=live_first_p,
+                    status="FAILED",
+                    screenshot=screenshot_path
+                )
 
-            results.append({
-                "step": index,
-                "url": target_url,
-                "recorded": recorded,
-                "live": live,
-                "status": status,
-                "screenshot": str(screenshot_path) if screenshot_path else None
-            })
-
-            print(f"{'✅' if status == 'PASS' else '❌'} Step {index} → {target_url}")
+                raise AssertionError(
+                    f"\n❌ Replay verification failed at step {index}\n"
+                    f"URL: {target_url}\n\n"
+                    f"Recorded:\n{recorded_first_p}\n\n"
+                    f"Live:\n{live_first_p}\n"
+                )
 
         browser.close()
-
-    # Always generate report
-    generate_report(results)
-
-    # Fail AFTER report is written
-    if failed:
-        raise AssertionError(
-            "Replay verification failed. "
-            "See reports/replay-report.html for details."
-        )
