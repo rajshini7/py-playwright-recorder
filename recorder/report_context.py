@@ -1,18 +1,17 @@
 # recorder/report_context.py
 
-from typing import List, Dict
+_STEP_RESULTS = []
 
-STEP_RESULTS: List[Dict] = []
 
 def add_step_result(
-    step: int,
-    url: str,
-    recorded: str,
-    live: str,
-    status: str,
-    screenshot: str | None = None
+    step,
+    url,
+    recorded,
+    live,
+    status,
+    screenshot=None
 ):
-    STEP_RESULTS.append({
+    _STEP_RESULTS.append({
         "step": step,
         "url": url,
         "recorded": recorded,
@@ -20,3 +19,7 @@ def add_step_result(
         "status": status,
         "screenshot": screenshot
     })
+
+
+def get_results():
+    return _STEP_RESULTS

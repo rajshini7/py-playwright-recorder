@@ -4,6 +4,8 @@ from recorder.content import extract_content
 from recorder.steps_store import load_steps
 from recorder.report_context import add_step_result
 import os
+from recorder.report import generate_report
+
 
 
 def replay(base_url, username, password):
