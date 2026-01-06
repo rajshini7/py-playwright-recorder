@@ -1,6 +1,15 @@
 [
   {
     "current_url": "https://practicetestautomation.com/logged-in-successfully/",
+    "target_url": "https://practicetestautomation.com/",
+    "content": {
+      "title": "Practice Test Automation | Learn Selenium WebDriver",
+      "h1": "Hello",
+      "firstP": "Welcome to Practice Test Automation!"
+    }
+  },
+  {
+    "current_url": "https://practicetestautomation.com/",
     "target_url": "https://practicetestautomation.com/practice/",
     "content": {
       "title": "Practice | Practice Test Automation",
@@ -28,11 +37,29 @@
   },
   {
     "current_url": "https://practicetestautomation.com/blog/",
+    "target_url": "https://practicetestautomation.com/contact/",
+    "content": {
+      "title": "Contact | Practice Test Automation | Selenium WebDriver",
+      "h1": "Contact",
+      "firstP": "If you have questions, suggestions, or business proposals, fill up the form below and I\u2019ll be in touch as soon as I get it!"
+    }
+  },
+  {
+    "current_url": "https://practicetestautomation.com/contact/",
     "target_url": "https://practicetestautomation.com/",
     "content": {
       "title": "Practice Test Automation | Learn Selenium WebDriver",
       "h1": "Hello",
-      "firstP": " Test Automation!"
+      "firstP": "Welcome to Practice Test Automation!"
+    }
+  },
+  {
+    "current_url": "https://practicetestautomation.com/",
+    "target_url": "https://practicetestautomation.com/practice/",
+    "content": {
+      "title": "Practice | Practice Test Automation",
+      "h1": "Practice",
+      "firstP": "Test Login Page"
     }
   }
 ]
