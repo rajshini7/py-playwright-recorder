@@ -1,33 +1,15 @@
 [
   {
     "current_url": "https://practicetestautomation.com/logged-in-successfully/",
-    "target_url": "https://practicetestautomation.com/contact/",
+    "target_url": "https://practicetestautomation.com/",
     "content": {
-      "title": "Contact | Practice Test Automation | Selenium WebDriver",
-      "h1": "Contact",
-      "firstP": "If you have questions, suggestions, or business proposals, fill up the form below and I\u2019ll be in touch as soon as I get it!"
+      "title": "Practice Test Automation | Learn Selenium WebDriver",
+      "h1": "Hello",
+      "firstP": "Welcome to Practice Test Automation!"
     }
   },
   {
-    "current_url": "https://practicetestautomation.com/contact/",
-    "target_url": "https://practicetestautomation.com/blog/",
-    "content": {
-      "title": "Blog | Practice Test Automation",
-      "h1": null,
-      "firstP": "Welcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this sixth part, we will explore the invaluable benefits of engaging with the Selenium community and expanding your professional network. Active participation in the test automation community can significantly enhance your career prospects, keep you updated with the latest trends, and connect you with industry leaders."
-    }
-  },
-  {
-    "current_url": "https://practicetestautomation.com/blog/",
-    "target_url": "https://practicetestautomation.com/courses/",
-    "content": {
-      "title": "Courses | Practice Test Automation",
-      "h1": "Courses",
-      "firstP": "Learn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests."
-    }
-  },
-  {
-    "current_url": "https://practicetestautomation.com/courses/",
+    "current_url": "https://practicetestautomation.com/",
     "target_url": "https://practicetestautomation.com/practice/",
     "content": {
       "title": "Practice | Practice Test Automation",
@@ -37,11 +19,20 @@
   },
   {
     "current_url": "https://practicetestautomation.com/practice/",
-    "target_url": "https://practicetestautomation.com/",
+    "target_url": "https://practicetestautomation.com/courses/",
     "content": {
-      "title": "Practice Test Automation | Learn Selenium WebDriver",
-      "h1": "Hello",
-      "firstP": " Test Automation!"
+      "title": "Courses | Practice Test Automation",
+      "h1": "Courses",
+      "firstP": "Learn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests."
+    }
+  },
+  {
+    "current_url": "https://practicetestautomation.com/courses/",
+    "target_url": "https://practicetestautomation.com/blog/",
+    "content": {
+      "title": "Blog | Practice Test Automation",
+      "h1": null,
+      "firstP": "Welcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this sixth part, we will explore the invaluable benefits of engaging with the Selenium community and expanding your professional network. Active participation in the test automation community can significantly enhance your career prospects, keep you updated with the latest trends, and connect you with industry leaders."
     }
   }
 ]
