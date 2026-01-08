@@ -69,31 +69,31 @@ FOLDER STRUCTURE
 ----------------
 py-recorder/
 ├── recorder/
-│   ├── login.py
-│   ├── record.py
-│   ├── replay.py
-│   ├── content.py
-│   ├── steps_store.py
-│   ├── report_context.py
-│   └── __init__.py
+│ ├── login.py
+│ ├── record.py
+│ ├── replay.py
+│ ├── content.py
+│ ├── steps_store.py
+│ ├── report_context.py
+│ └── init.py
 │
 ├── tests/
-│   ├── test_record.py
-│   └── test_replay.py
+│ ├── test_record.py
+│ └── test_replay.py
 │
 ├── data/
-│   └── steps.json
+│ └── steps.json
 │
 ├── reports/
-│   └── replay-report.html
+│ └── replay-report.html
 │
 ├── .github/workflows/
-│   └── pytest-replay.yml
+│ └── pytest-replay.yml
 │
 ├── conftest.py
 ├── pytest.ini
 ├── requirements.txt
-└── README.txt
+└── README.md
 
 HOW TO EXECUTE
 --------------
