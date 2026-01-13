@@ -34,6 +34,9 @@ def record(base_url: str, username: str, password: str):
 
             content = extract_content(page)
 
+            # ✅ OPTION-1: runtime sanity check (ONLY addition)
+            print(f"[RECORD] extracted {len(content.get('visible_items', []))} visible items")
+
             steps.append({
                 "current_url": current_url,
                 "target_url": target_url,
