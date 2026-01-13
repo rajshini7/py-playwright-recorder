@@ -14,6 +14,8 @@ def replay(base_url, username, password):
 
     os.makedirs("reports/screenshots", exist_ok=True)
 
+    has_failures = False  # ✅ collect failures, do NOT fail fast
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
@@ -73,6 +75,8 @@ def replay(base_url, username, password):
                     status="PASSED"
                 )
             else:
+                has_failures = True  # ✅ mark failure but continue
+
                 screenshot_path = f"reports/screenshots/step_{index}.png"
                 page.screenshot(path=screenshot_path)
 
@@ -85,11 +89,20 @@ def replay(base_url, username, password):
                     screenshot=screenshot_path
                 )
 
-                raise AssertionError(
+                print(
                     f"\n❌ Replay verification failed at step {index}\n"
                     f"URL: {target_url}\n"
                     f"Text coverage: {coverage:.0%}\n"
-                    f"title_match={title_match}, h1_match={h1_match}, firstP_match={firstp_match}\n"
+                    f"title_match={title_match}, "
+                    f"h1_match={h1_match}, "
+                    f"firstP_match={firstp_match}\n"
                 )
 
         browser.close()
+
+    # ---------- FAIL CI ONLY AFTER ALL STEPS ----------
+    if has_failures:
+        raise AssertionError(
+            "\n❌ Replay completed with one or more verification failures.\n"
+            "See replay-report.html and screenshots for details.\n"
+        )
