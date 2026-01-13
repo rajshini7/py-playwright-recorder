@@ -84,6 +84,9 @@ def replay(base_url, username, password):
 
         browser.close()
 
+        print("✅ Replay verification completed successfully for all pages.")
+
+
     if has_failures:
         raise AssertionError(
             "\n❌ Replay completed with one or more verification failures.\n"
