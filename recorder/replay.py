@@ -6,7 +6,6 @@ from recorder.report_context import add_step_result
 import os
 
 
-
 def replay(base_url, username, password):
     steps = load_steps()
 
@@ -23,18 +22,54 @@ def replay(base_url, username, password):
 
         for index, step in enumerate(steps, start=1):
             target_url = step["target_url"]
-            recorded_first_p = step["content"]["firstP"]
+            recorded = step["content"]
 
             page.goto(target_url)
             live = extract_content(page)
-            live_first_p = live["firstP"]
 
-            if live_first_p == recorded_first_p:
+            # ---------- LENIENT NORMALIZATION ----------
+            def normalize(content):
+                texts = {
+                    item["text"]
+                    for item in content.get("visible_items", [])
+                    if item.get("text")
+                }
+
+                return {
+                    "title": content.get("title"),
+                    "h1": content.get("h1"),
+                    "firstP": content.get("firstP"),
+                    "texts": texts
+                }
+
+            r = normalize(recorded)
+            l = normalize(live)
+
+            # ---------- CORE CHECKS ----------
+            title_match = r["title"] == l["title"]
+            h1_match = r["h1"] == l["h1"]
+            firstp_match = r["firstP"] == l["firstP"]
+
+            # ---------- TEXT COVERAGE CHECK ----------
+            if r["texts"]:
+                matched = len(r["texts"] & l["texts"])
+                coverage = matched / len(r["texts"])
+            else:
+                coverage = 1.0
+
+            passed = (
+                title_match and
+                h1_match and
+                firstp_match and
+                coverage >= 0.8   # 👈 leniency threshold
+            )
+
+            if passed:
                 add_step_result(
                     step=index,
                     url=target_url,
-                    recorded=recorded_first_p,
-                    live=live_first_p,
+                    recorded="Content matched (lenient)",
+                    live=f"Coverage: {coverage:.0%}",
                     status="PASSED"
                 )
             else:
@@ -44,17 +79,17 @@ def replay(base_url, username, password):
                 add_step_result(
                     step=index,
                     url=target_url,
-                    recorded=recorded_first_p,
-                    live=live_first_p,
+                    recorded="Recorded content",
+                    live=f"Coverage: {coverage:.0%}",
                     status="FAILED",
                     screenshot=screenshot_path
                 )
 
                 raise AssertionError(
                     f"\n❌ Replay verification failed at step {index}\n"
-                    f"URL: {target_url}\n\n"
-                    f"Recorded:\n{recorded_first_p}\n\n"
-                    f"Live:\n{live_first_p}\n"
+                    f"URL: {target_url}\n"
+                    f"Text coverage: {coverage:.0%}\n"
+                    f"title_match={title_match}, h1_match={h1_match}, firstP_match={firstp_match}\n"
                 )
 
         browser.close()

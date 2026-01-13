@@ -1,35 +1,83 @@
 from playwright.sync_api import Page
 
+
 def extract_content(page: Page):
-    # Ensure page is fully loaded
+    # Ensure page is ready
     page.wait_for_load_state("domcontentloaded")
 
-    # Prefer semantic containers
-    content_root = None
+    # Run ONE browser-context extraction (fast & accurate)
+    extracted = page.evaluate(
+        """
+        () => {
+            const isVisible = (el) => {
+                const style = window.getComputedStyle(el);
+                const rect = el.getBoundingClientRect();
+                return (
+                    style &&
+                    style.visibility !== "hidden" &&
+                    style.display !== "none" &&
+                    rect.width > 0 &&
+                    rect.height > 0
+                );
+            };
 
-    for selector in ["main", "article", "#content", ".content"]:
-        if page.locator(selector).count() > 0:
-            content_root = page.locator(selector)
-            break
+            const seen = new Set();
+            const items = [];
 
-    if content_root is None:
-        content_root = page.locator("body")
+            const walker = document.createTreeWalker(
+                document.body,
+                NodeFilter.SHOW_ELEMENT,
+                null
+            );
 
-    # Get first visible paragraph inside content
-    paragraphs = content_root.locator("p").filter(has_text="")
+            let node;
+            while ((node = walker.nextNode())) {
+                if (!isVisible(node)) continue;
 
-    first_p = None
-    for i in range(paragraphs.count()):
-        p = paragraphs.nth(i)
-        if p.is_visible():
-            text = p.inner_text().strip()
-            if text:
-                first_p = text
-                break
+                const text = node.innerText?.trim();
+                if (!text || text.length < 20) continue;
 
-    return {
-        "title": page.title(),
-        "h1": page.locator("h1").first.inner_text().strip()
-              if page.locator("h1").count() > 0 else None,
-        "firstP": first_p
-    }
+                if (seen.has(text)) continue;
+                seen.add(text);
+
+                const rect = node.getBoundingClientRect();
+
+                items.push({
+                    tag: node.tagName.toLowerCase(),
+                    text: text.slice(0, 500), // guard against huge blobs
+                    bbox: {
+                        top: Math.round(rect.top),
+                        left: Math.round(rect.left),
+                        width: Math.round(rect.width),
+                        height: Math.round(rect.height)
+                    },
+                    scrollY: Math.round(window.scrollY)
+                });
+            }
+
+            const firstParagraph = (() => {
+                const ps = document.querySelectorAll("p");
+                for (const p of ps) {
+                    if (isVisible(p)) {
+                        const t = p.innerText.trim();
+                        if (t) return t;
+                    }
+                }
+                return null;
+            })();
+
+            return {
+                title: document.title || null,
+                h1: document.querySelector("h1")?.innerText.trim() || null,
+                firstP: firstParagraph,
+                visible_items: items,
+                maxScrollY: Math.max(
+                    document.body.scrollHeight,
+                    document.documentElement.scrollHeight
+                )
+            };
+        }
+        """
+    )
+
+    return extracted
