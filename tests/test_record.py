@@ -1,7 +1,7 @@
-from recorder.record import record
+from recorder.create_test import create_test
 
-def test_record():
-    record(
+def test_create_test():
+    create_test(
         base_url="https://practicetestautomation.com/practice-test-login/",
         username="student",
         password="Password123"

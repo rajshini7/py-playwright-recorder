@@ -26,8 +26,8 @@ def pytest_runtest_makereport(item, call):
             <b>Step:</b> {step['step']}<br>
             <b>URL:</b> {step['url']}<br>
             <b>Status:</b> {step['status']}<br>
-            <b>Recorded FirstP:</b>
-            <pre>{step['recorded']}</pre>
+            <b>create_tested FirstP:</b>
+            <pre>{step['create_tested']}</pre>
             <b>Live FirstP:</b>
             <pre>{step['live']}</pre>
             """

@@ -10,7 +10,7 @@ def replay(base_url, username, password):
     steps = load_steps()
 
     if not steps:
-        raise RuntimeError("No recorded steps found")
+        raise RuntimeError("No create_tested steps found")
 
     os.makedirs("reports/screenshots", exist_ok=True)
 
@@ -24,7 +24,7 @@ def replay(base_url, username, password):
 
         for index, step in enumerate(steps, start=1):
             target_url = step["target_url"]
-            recorded = step["content"]
+            create_tested = step["content"]
 
             page.goto(target_url)
             live = extract_content(page)
@@ -44,14 +44,14 @@ def replay(base_url, username, password):
                     )
                 }
 
-            r = normalize(recorded)
+            r = normalize(create_tested)
             l = normalize(live)
 
             if r == l:
                 add_step_result(
                     step=index,
                     url=target_url,
-                    recorded=recorded.get("firstP"),
+                    create_tested=create_tested.get("firstP"),
                     live=live.get("firstP"),
                     status="PASSED"
                 )
@@ -64,7 +64,7 @@ def replay(base_url, username, password):
                 add_step_result(
                     step=index,
                     url=target_url,
-                    recorded=recorded.get("firstP"),
+                    create_tested=create_tested.get("firstP"),
                     live=live.get("firstP"),
                     status="FAILED",
                     screenshot=screenshot_path
@@ -76,7 +76,7 @@ def replay(base_url, username, password):
                 print(
                     f"\n❌ Replay verification failed at step {index}\n"
                     f"URL: {target_url}\n\n"
-                    f"Recorded firstP:\n{recorded.get('firstP')}\n\n"
+                    f"create_tested firstP:\n{create_tested.get('firstP')}\n\n"
                     f"Live firstP:\n{live.get('firstP')}\n\n"
                     f"Missing elements (tag, text):\n"
                     + "\n".join(f"- {m[0]}: {m[1][:120]}" for m in list(missing)[:5])

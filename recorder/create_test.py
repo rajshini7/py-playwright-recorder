@@ -4,7 +4,7 @@ from recorder.content import extract_content
 from recorder.steps_store import save_steps
 
 
-def record(base_url: str, username: str, password: str):
+def create_test(base_url: str, username: str, password: str):
     steps = []
     last_url = None
 
@@ -35,7 +35,7 @@ def record(base_url: str, username: str, password: str):
             content = extract_content(page)
 
             # ✅ OPTION-1: runtime sanity check (ONLY addition)
-            print(f"[RECORD] extracted {len(content.get('visible_items', []))} visible items")
+            print(f"[create_test] extracted {len(content.get('visible_items', []))} visible items")
 
             steps.append({
                 "current_url": current_url,
@@ -47,7 +47,7 @@ def record(base_url: str, username: str, password: str):
 
         page.on("framenavigated", on_navigation)
 
-        print("🔴 Recording... Perform clicks. Close the browser window to stop.")
+        print("🔴 create_testing... Perform clicks. Close the browser window to stop.")
 
         # 3️⃣ Wait until user closes browser (NO crash)
         try:

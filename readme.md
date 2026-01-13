@@ -1,8 +1,8 @@
-# PY-RECORDER — CREATE_TEST & RUN_TEST WEB VERIFICATION FRAMEWORK
+# PY-create_testER — CREATE_TEST & RUN_TEST WEB VERIFICATION FRAMEWORK
 
 ## OVERVIEW
 
-**Py-Recorder** is a Playwright + Pytest based **create_test and run_test verification framework** designed to validate **real user navigation flows** by comparing **meaningful page content**, not fragile UI selectors.
+**Py-create_tester** is a Playwright + Pytest based **create_test and run_test verification framework** designed to validate **real user navigation flows** by comparing **meaningful page content**, not fragile UI selectors.
 
 It allows you to:
 
@@ -27,7 +27,7 @@ Traditional UI automation:
 - Depends heavily on brittle selectors  
 - Produces noisy, low-signal failures  
 
-**Py-Recorder** solves this by:
+**Py-create_tester** solves this by:
 
 - Tracking **real user navigation**
 - Validating **meaningful content users actually read**
@@ -88,8 +88,8 @@ Traditional UI automation:
 ## FOLDER STRUCTURE
 
 ```text
-py-recorder/
-├── recorder/
+py-create_tester/
+├── create_tester/
 │   ├── login.py
 │   ├── create_test.py
 │   ├── run_test.py

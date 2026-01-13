@@ -14,7 +14,7 @@ def _img_to_base64(path):
 
 def _pretty(value):
     """
-    Safely pretty-print recorded/live content.
+    Safely pretty-print create_tested/live content.
     """
     if value is None:
         return ""
@@ -40,7 +40,7 @@ def generate_report(results, output_path="reports/replay-report.html"):
             mismatch_html = """
             <div style="margin-top:8px; color:#721c24;">
                 <b>⚠️ Mismatch detected:</b>
-                Recorded content does not match live content for this navigation.
+                create_tested content does not match live content for this navigation.
             </div>
             """
 
@@ -62,7 +62,7 @@ def generate_report(results, output_path="reports/replay-report.html"):
                 {html.escape(r['url'])}
               </a>
             </td>
-            <td>{html.escape(_pretty(r.get('recorded')))}</td>
+            <td>{html.escape(_pretty(r.get('create_tested')))}</td>
             <td>
                 {html.escape(_pretty(r.get('live')))}
                 {mismatch_html}
@@ -95,7 +95,7 @@ def generate_report(results, output_path="reports/replay-report.html"):
             <tr>
                 <th>Step</th>
                 <th>URL</th>
-                <th>Recorded Content</th>
+                <th>create_tested Content</th>
                 <th>Live Content / Details</th>
                 <th>Status</th>
             </tr>
