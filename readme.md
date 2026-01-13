@@ -1,148 +1,185 @@
-PY-RECORDER — RECORD & REPLAY WEB VERIFICATION FRAMEWORK
+# PY-RECORDER — CREATE_TEST & RUN_TEST WEB VERIFICATION FRAMEWORK
 
-OVERVIEW
---------
-Py-Recorder is a Playwright + Pytest based record-and-replay framework designed to verify real user navigation flows by validating meaningful page content rather than fragile UI selectors.
+## OVERVIEW
+
+**Py-Recorder** is a Playwright + Pytest based **create_test and run_test verification framework** designed to validate **real user navigation flows** by comparing **meaningful page content**, not fragile UI selectors.
 
 It allows you to:
-⦁	- Automatically log in to a web application
-⦁	- Record real manual navigation (user clicks)
-⦁	- Capture content snapshots per navigation step
-⦁	- Replay the same journey automatically
-⦁	- Verify recorded content against live content
-⦁	- Generate a self-contained HTML verification report
-⦁	- Embed screenshots directly into the report on failure
-⦁	- Run fully headless in a CI/CD pipeline
 
-This framework focuses on CONTENT VALIDATION, not UI automation.
+- Automatically log in to a web application
+- Create tests by capturing real manual navigation (user clicks)
+- Store content snapshots per navigation step
+- Execute the same journey automatically
+- Verify stored content against live content
+- Generate a self-contained HTML verification report
+- Embed screenshots directly into the report on failure
+- Run fully headless in a CI/CD pipeline
 
-WHY THIS PROJECT
-----------------
+This framework focuses on **CONTENT VALIDATION**, not traditional UI automation.
+
+---
+
+## WHY THIS PROJECT
+
 Traditional UI automation:
-- Breaks on minor layout changes
-- Depends heavily on selectors
-- Produces noisy, unhelpful failures
 
-Py-Recorder solves this by:
-- Tracking real user navigation
-- Validating meaningful content (text users actually read)
-- Producing audit-ready HTML evidence
-- Running deterministically in CI pipelines
+- Breaks on minor layout changes  
+- Depends heavily on brittle selectors  
+- Produces noisy, low-signal failures  
 
-CORE CONCEPTS
--------------
-1. RECORD PHASE
+**Py-Recorder** solves this by:
+
+- Tracking **real user navigation**
+- Validating **meaningful content users actually read**
+- Producing **audit-ready HTML evidence**
+- Running deterministically in **CI pipelines**
+
+---
+
+## CORE CONCEPTS
+
+### CREATE_TEST PHASE
+
 - Browser opens after successful login
-- User manually clicks links
-- Each navigation records:
-  - current_url
-  - target_url
+- User manually navigates through the application
+- Each navigation step captures:
+  - `current_url`
+  - `target_url`
   - page title
-  - h1 heading
-  - first meaningful paragraph (firstP)
-- Saved to steps.json
+  - `h1` heading
+  - first meaningful paragraph (`firstP`)
+- All steps are stored in `steps.json`
 
-2. REPLAY PHASE
+---
+
+### RUN_TEST PHASE
+
 - Login happens automatically
-- Recorded navigation is replayed
-- Live content is extracted at each step
-- Recorded vs live content is compared
+- Stored navigation steps are executed sequentially
+- Live page content is extracted at each step
+- Stored content is compared against live content
+- All steps are executed even if mismatches occur
 
-3. VERIFICATION
-- PASS: logged in report
-- FAIL:
+---
+
+### VERIFICATION
+
+- **PASS**
+  - Step marked as verified in the report
+- **FAIL**
   - Screenshot captured
-  - Screenshot embedded in report (Base64)
-  - Recorded vs Live text displayed
-  - CI pipeline fails with proof
+  - Screenshot embedded directly in the HTML report (Base64)
+  - Stored vs Live `firstP` displayed
+  - CI pipeline fails **after all steps complete**
 
-TECH STACK
-----------
-Automation: Playwright (Python)
-Test Runner: Pytest
-Reporting: pytest-html
-CI/CD: GitHub Actions
-Browser: Chromium
-Language: Python 3.11+
+---
 
-FOLDER STRUCTURE
-----------------
+## TECH STACK
+
+- **Automation:** Playwright (Python)
+- **Test Runner:** Pytest
+- **Reporting:** pytest-html
+- **CI/CD:** GitHub Actions
+- **Browser:** Chromium
+- **Language:** Python 3.11+
+
+---
+
+## FOLDER STRUCTURE
+
+```text
 py-recorder/
 ├── recorder/
-│ ├── login.py
-│ ├── record.py
-│ ├── replay.py
-│ ├── content.py
-│ ├── steps_store.py
-│ ├── report_context.py
-│ └── init.py
+│   ├── login.py
+│   ├── create_test.py
+│   ├── run_test.py
+│   ├── content.py
+│   ├── steps_store.py
+│   ├── report_context.py
+│   └── __init__.py
 │
 ├── tests/
-│ ├── test_record.py
-│ └── test_replay.py
+│   ├── test_create_test.py
+│   └── test_run_test.py
 │
 ├── data/
-│ └── steps.json
+│   └── steps.json
 │
 ├── reports/
-│ └── replay-report.html
+│   └── replay-report.html
 │
 ├── .github/workflows/
-│ └── pytest-replay.yml
+│   └── pytest-replay.yml
 │
 ├── conftest.py
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
-
 HOW TO EXECUTE
---------------
-1. CREATE VIRTUAL ENVIRONMENT
+CREATE VIRTUAL ENVIRONMENT
+bash
+Copy code
 python -m venv .venv
-source .venv/bin/activate  (Windows: .venv\Scripts\activate)
+source .venv/bin/activate
+Windows:
 
-2. INSTALL DEPENDENCIES
+powershell
+Copy code
+.venv\Scripts\activate
+INSTALL DEPENDENCIES
+bash
+Copy code
 pip install -r requirements.txt
 python -m playwright install
+CREATE_TEST (LOCAL ONLY)
+bash
+Copy code
+pytest tests/test_create_test.py -s
+Generates data/steps.json
+This phase is intentionally excluded from CI
 
-RECORD A USER JOURNEY (LOCAL ONLY)
-----------------------------------
-pytest tests/test_record.py -s
-
-REPLAY AND VERIFY
------------------
-pytest tests/test_replay.py \
+RUN_TEST AND VERIFY
+bash
+Copy code
+pytest tests/test_run_test.py \
   --html=reports/replay-report.html \
   --self-contained-html \
   -v
-
 CI/CD READY
------------
-- Headless execution
-- Self-contained HTML report
-- Screenshot embedding
-- Artifacts uploaded on every run
-- Recorder excluded from CI
-- Replay only in pipeline
+Fully headless execution
+
+Self-contained HTML report
+
+Screenshots embedded on failure
+
+Artifacts uploaded on every run
+
+Create_test excluded from CI
+
+Run_test enforced in pipeline
 
 EXPECTED OUTPUT
----------------
-SUCCESS:
-- All steps PASSED
-- Report shows verified content
+SUCCESS
+All steps verified successfully
 
-FAILURE:
-- Step marked FAILED
-- Screenshot embedded
-- Recorded vs Live content shown
-- CI job fails intentionally
+HTML report shows validated content
+
+CI pipeline passes
+
+FAILURE
+One or more steps marked as failed
+
+Screenshot embedded in report
+
+Stored vs Live content displayed
+
+CI job fails intentionally with evidence
 
 BRANCHING STRATEGY
-------------------
+text
+Copy code
 main
- ├── staging
- └── development
-
+├── staging
+└── development
 CREATED BY
-----------
 Rajeev S
