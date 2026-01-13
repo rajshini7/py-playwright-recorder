@@ -1,7 +1,7 @@
-from recorder.replay import replay
+from recorder.run_test import run_test
 
-def test_replay():
-    replay(
+def test_run_test():
+    run_test(
         base_url="https://practicetestautomation.com/practice-test-login/",
         username="student",
         password="Password123"

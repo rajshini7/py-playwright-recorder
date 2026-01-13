@@ -106,10 +106,10 @@ py-create_tester/
 │   └── steps.json
 │
 ├── reports/
-│   └── replay-report.html
+│   └── run_test-report.html
 │
 ├── .github/workflows/
-│   └── pytest-replay.yml
+│   └── pytest-run_test.yml
 │
 ├── conftest.py
 ├── pytest.ini
@@ -142,7 +142,7 @@ RUN_TEST AND VERIFY
 bash
 Copy code
 pytest tests/test_run_test.py \
-  --html=reports/replay-report.html \
+  --html=reports/run_test-report.html \
   --self-contained-html \
   -v
 CI/CD READY

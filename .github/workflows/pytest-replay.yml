@@ -1,4 +1,4 @@
-name: Pytest Playwright Replay
+name: Pytest Playwright run_test
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ development ]
 
 jobs:
-  replay-tests:
+  run_test-tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -32,19 +32,19 @@ jobs:
         run: |
           python -m playwright install --with-deps
 
-      # 5️⃣ Run replay tests + generate rich HTML report
-      - name: Run replay verification
+      # 5️⃣ Run run_test tests + generate rich HTML report
+      - name: Run run_test verification
         run: |
           mkdir -p reports/screenshots
-          pytest tests/test_replay.py \
-            --html=reports/replay-report.html \
+          pytest tests/test_run_test.py \
+            --html=reports/run_test-report.html \
             --self-contained-html \
             -v
 
-      # 6️⃣ Upload FULL replay report (HTML + screenshots)
-      - name: Upload replay artifacts
+      # 6️⃣ Upload FULL run_test report (HTML + screenshots)
+      - name: Upload run_test artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: replay-report
+          name: run_test-report
           path: reports/

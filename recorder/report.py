@@ -23,7 +23,7 @@ def _pretty(value):
     return str(value)
 
 
-def generate_report(results, output_path="reports/replay-report.html"):
+def generate_report(results, output_path="reports/run_test-report.html"):
     reports_dir = Path("reports")
     reports_dir.mkdir(exist_ok=True)
 
@@ -77,7 +77,7 @@ def generate_report(results, output_path="reports/replay-report.html"):
     <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Replay Verification Report</title>
+        <title>run_test Verification Report</title>
         <style>
             body {{ font-family: Arial, sans-serif; padding: 20px; }}
             table {{ border-collapse: collapse; width: 100%; }}
@@ -88,7 +88,7 @@ def generate_report(results, output_path="reports/replay-report.html"):
         </style>
     </head>
     <body>
-        <h1>Replay Verification Report</h1>
+        <h1>run_test Verification Report</h1>
         <p><b>Generated:</b> {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
 
         <table>

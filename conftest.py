@@ -18,7 +18,7 @@ def pytest_runtest_makereport(item, call):
     if report.when == "call" and STEP_RESULTS:
         extra = getattr(report, "extras", [])
 
-        html = "<h2>Replay Verification Details</h2>"
+        html = "<h2>run_test Verification Details</h2>"
 
         for step in STEP_RESULTS:
             html += f"""

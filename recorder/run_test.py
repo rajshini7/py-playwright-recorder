@@ -6,7 +6,7 @@ from recorder.report_context import add_step_result
 import os
 
 
-def replay(base_url, username, password):
+def run_test(base_url, username, password):
     steps = load_steps()
 
     if not steps:
@@ -74,7 +74,7 @@ def replay(base_url, username, password):
                 missing = set(r["items"]) - set(l["items"])
 
                 print(
-                    f"\n❌ Replay verification failed at step {index}\n"
+                    f"\n❌ run_test verification failed at step {index}\n"
                     f"URL: {target_url}\n\n"
                     f"create_tested firstP:\n{create_tested.get('firstP')}\n\n"
                     f"Live firstP:\n{live.get('firstP')}\n\n"
@@ -84,11 +84,11 @@ def replay(base_url, username, password):
 
         browser.close()
 
-        print("✅ Replay verification completed successfully for all pages.")
+        print("✅ run_test verification completed successfully for all pages.")
 
 
     if has_failures:
         raise AssertionError(
-            "\n❌ Replay completed with one or more verification failures.\n"
-            "See replay-report.html and screenshots for details.\n"
+            "\n❌ run_test completed with one or more verification failures.\n"
+            "See run_test-report.html and screenshots for details.\n"
         )
