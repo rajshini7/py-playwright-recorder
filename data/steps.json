@@ -351,7 +351,7 @@
         },
         {
           "tag": "p",
-          "text": "This website was carefully crafted to host a diverse selection of articles, standalone lectures, tips, and examples for those interested in test automation. Moreover, with a practical platform already established, test automation beginners can easily put their skills into practice.",
+          "text": "This  of articles, standalone lectures, tips, and examples for those interested in test automation. Moreover, with a practical platform already established, test automation beginners can easily put their skills into practice.",
           "bbox": {
             "top": 1352,
             "left": 269,
