@@ -2,9 +2,9 @@ name: Pytest Playwright run_test
 
 on:
   push:
-    branches: [ development ]
+    branches: [development]
   pull_request:
-    branches: [ development ]
+    branches: [development]
 
 jobs:
   run_test-tests:
@@ -32,11 +32,11 @@ jobs:
         run: |
           python -m playwright install --with-deps
 
-      # 5️⃣ Run run_test tests + generate rich HTML report
+      # 5️⃣ Run run_test verification + generate HTML report
       - name: Run run_test verification
         run: |
           mkdir -p reports/screenshots
-          pytest tests/test_run_test.py \
+          pytest tests/test_replay.py \
             --html=reports/run_test-report.html \
             --self-contained-html \
             -v
