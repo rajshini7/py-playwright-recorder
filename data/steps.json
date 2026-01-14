@@ -1,6 +1,304 @@
 [
   {
     "current_url": "https://practicetestautomation.com/logged-in-successfully/",
+    "target_url": "https://practicetestautomation.com/",
+    "content": {
+      "title": "Practice Test Automation | Learn Selenium WebDriver",
+      "h1": "Hello",
+      "firstP": "Welcome to Practice Test Automation!",
+      "visible_items": [
+        {
+          "tag": "a",
+          "text": "Press \"Enter\" to skip to content",
+          "bbox": {
+            "top": -720,
+            "left": 0,
+            "width": 1265,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "HOME PRACTICE COURSES BLOG CONTACT\nHello\n\nWelcome to Practice Test Automation!\n\nI\u2019m Dmitry Shyshkin, your guide on the path to a thriving QA career. Effortlessly master Selenium WebDriver and test automation to enhance your skills and increase your earnings.\n\nExperience and Expertise\n\nAs a Principal Software Development Engineer in Test, I bring over a decade of experience in automating Web UI, API, and Mobile tests using tools like Selenium WebDriver, Appium, Postman, RestAssured, and more. I b",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "width": 1265,
+            "height": 2222
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "header",
+          "text": "HOME PRACTICE COURSES BLOG CONTACT",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "width": 1265,
+            "height": 173
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "section",
+          "text": "Hello\n\nWelcome to Practice Test Automation!\n\nI\u2019m Dmitry Shyshkin, your guide on the path to a thriving QA career. Effortlessly master Selenium WebDriver and test automation to enhance your skills and increase your earnings.\n\nExperience and Expertise\n\nAs a Principal Software Development Engineer in Test, I bring over a decade of experience in automating Web UI, API, and Mobile tests using tools like Selenium WebDriver, Appium, Postman, RestAssured, and more. I began my journey as a manual QA engi",
+          "bbox": {
+            "top": 221,
+            "left": 0,
+            "width": 1265,
+            "height": 1929
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Welcome to Practice Test Automation!\n\nI\u2019m Dmitry Shyshkin, your guide on the path to a thriving QA career. Effortlessly master Selenium WebDriver and test automation to enhance your skills and increase your earnings.\n\nExperience and Expertise\n\nAs a Principal Software Development Engineer in Test, I bring over a decade of experience in automating Web UI, API, and Mobile tests using tools like Selenium WebDriver, Appium, Postman, RestAssured, and more. I began my journey as a manual QA engineer an",
+          "bbox": {
+            "top": 311,
+            "left": 257,
+            "width": 752,
+            "height": 1779
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Welcome to Practice Test Automation!",
+          "bbox": {
+            "top": 577,
+            "left": 269,
+            "width": 728,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "I\u2019m Dmitry Shyshkin, your guide on the path to a thriving QA career. Effortlessly master Selenium WebDriver and test automation to enhance your skills and increase your earnings.",
+          "bbox": {
+            "top": 632,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Experience and Expertise",
+          "bbox": {
+            "top": 715,
+            "left": 269,
+            "width": 728,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "As a Principal Software Development Engineer in Test, I bring over a decade of experience in automating Web UI, API, and Mobile tests using tools like Selenium WebDriver, Appium, Postman, RestAssured, and more. I began my journey as a manual QA engineer and quickly developed a passion for test automation. Having served as the lead test automation expert in various projects, I\u2019m confident in my ability to help you excel in test automation.",
+          "bbox": {
+            "top": 770,
+            "left": 269,
+            "width": 728,
+            "height": 140
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Beyond Test Automation",
+          "bbox": {
+            "top": 937,
+            "left": 269,
+            "width": 728,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Not only have I automated tests, but I\u2019ve also applied automation to job searches and even finding cheaper flights! Now, I\u2019m eager to share this passion and knowledge with you.",
+          "bbox": {
+            "top": 992,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Courses and Achievements",
+          "bbox": {
+            "top": 1075,
+            "left": 269,
+            "width": 728,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "In 2017, I started sharing my test automation expertise through video courses, beginning with a Selenium WebDriver tutorial on YouTube. Today, I offer nine courses with over 70,000 students, including a BestSeller XPath course and a HighestRated Selenium course. With a 4.7 out of 5 instructor rating, I\u2019m grateful to every student who has joined me on this journey.",
+          "bbox": {
+            "top": 1130,
+            "left": 269,
+            "width": 728,
+            "height": 140
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "strong",
+          "text": "nine courses with over 70,000 students",
+          "bbox": {
+            "top": 1160,
+            "left": 269,
+            "width": 669,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "strong",
+          "text": "BestSeller XPath course",
+          "bbox": {
+            "top": 1188,
+            "left": 495,
+            "width": 197,
+            "height": 22
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "strong",
+          "text": "HighestRated Selenium course",
+          "bbox": {
+            "top": 1188,
+            "left": 740,
+            "width": 250,
+            "height": 22
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "A Resourceful Website",
+          "bbox": {
+            "top": 1297,
+            "left": 269,
+            "width": 728,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "This website was carefully crafted to host a diverse selection of articles, standalone lectures, tips, and examples for those interested in test automation. Moreover, with a practical platform already established, test automation beginners can easily put their skills into practice.",
+          "bbox": {
+            "top": 1352,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "strong",
+          "text": "diverse selection of articles, standalone lectures, tips, and examples",
+          "bbox": {
+            "top": 1354,
+            "left": 269,
+            "width": 661,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "As we look ahead, I\u2019m thrilled about the future of Practice Test Automation and delighted to have you on board!",
+          "bbox": {
+            "top": 1546,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Please be sure to visit our BLOG for engaging articles, speeches, and tutorials, and don\u2019t miss our COURSES, designed to enrich your learning experience.",
+          "bbox": {
+            "top": 1684,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Get a FREE XPath cheat sheet by Signing Up for our newsletter\n\nWe don\u2019t spam! Read more in our privacy policy",
+          "bbox": {
+            "top": 1767,
+            "left": 269,
+            "width": 728,
+            "height": 324
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Get a FREE XPath cheat sheet by Signing Up for our newsletter",
+          "bbox": {
+            "top": 1786,
+            "left": 288,
+            "width": 689,
+            "height": 79
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "We don\u2019t spam! Read more in our privacy policy",
+          "bbox": {
+            "top": 2051,
+            "left": 288,
+            "width": 689,
+            "height": 20
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
+          "bbox": {
+            "top": 2150,
+            "left": 0,
+            "width": 1265,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "a",
+          "text": "Practice Test Automation.",
+          "bbox": {
+            "top": 2176,
+            "left": 480,
+            "width": 189,
+            "height": 19
+          },
+          "scrollY": 0
+        }
+      ],
+      "maxScrollY": 2222
+    }
+  },
+  {
+    "current_url": "https://practicetestautomation.com/",
     "target_url": "https://practicetestautomation.com/practice/",
     "content": {
       "title": "Practice | Practice Test Automation",
@@ -25,7 +323,7 @@
             "top": 0,
             "left": 0,
             "width": 1265,
-            "height": 985
+            "height": 954
           },
           "scrollY": 0
         },
@@ -47,7 +345,7 @@
             "top": 221,
             "left": 0,
             "width": 1265,
-            "height": 692
+            "height": 661
           },
           "scrollY": 0
         },
@@ -58,7 +356,7 @@
             "top": 311,
             "left": 257,
             "width": 752,
-            "height": 542
+            "height": 511
           },
           "scrollY": 0
         },
@@ -69,7 +367,7 @@
             "top": 339,
             "left": 269,
             "width": 728,
-            "height": 112
+            "height": 110
           },
           "scrollY": 0
         },
@@ -80,7 +378,7 @@
             "top": 339,
             "left": 535,
             "width": 461,
-            "height": 112
+            "height": 110
           },
           "scrollY": 0
         },
@@ -88,10 +386,10 @@
           "tag": "div",
           "text": "Test Exceptions\n\nPage to reproduce the most common Selenium Exceptions.",
           "bbox": {
-            "top": 511,
+            "top": 510,
             "left": 269,
             "width": 728,
-            "height": 112
+            "height": 82
           },
           "scrollY": 0
         },
@@ -99,10 +397,10 @@
           "tag": "div",
           "text": "Page to reproduce the most common Selenium Exceptions.",
           "bbox": {
-            "top": 511,
+            "top": 510,
             "left": 535,
             "width": 461,
-            "height": 112
+            "height": 82
           },
           "scrollY": 0
         },
@@ -110,7 +408,7 @@
           "tag": "div",
           "text": "Test Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
           "bbox": {
-            "top": 683,
+            "top": 652,
             "left": 269,
             "width": 728,
             "height": 110
@@ -121,7 +419,7 @@
           "tag": "div",
           "text": "Page to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
           "bbox": {
-            "top": 683,
+            "top": 652,
             "left": 535,
             "width": 461,
             "height": 110
@@ -132,7 +430,7 @@
           "tag": "div",
           "text": "\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
           "bbox": {
-            "top": 913,
+            "top": 882,
             "left": 0,
             "width": 1265,
             "height": 72
@@ -143,7 +441,7 @@
           "tag": "a",
           "text": "Practice Test Automation.",
           "bbox": {
-            "top": 939,
+            "top": 908,
             "left": 480,
             "width": 189,
             "height": 19
@@ -151,7 +449,7 @@
           "scrollY": 0
         }
       ],
-      "maxScrollY": 985
+      "maxScrollY": 954
     }
   }
 ]
