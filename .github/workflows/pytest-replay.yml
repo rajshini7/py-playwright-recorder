@@ -36,7 +36,7 @@ jobs:
       - name: Run run_test verification
         run: |
           mkdir -p reports/screenshots
-          pytest tests/test_replay.py \
+          pytest tests/test_run_test.py \
             --html=reports/run_test-report.html \
             --self-contained-html \
             -v
