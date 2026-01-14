@@ -1,11 +1,11 @@
 [
   {
     "current_url": "https://practicetestautomation.com/logged-in-successfully/",
-    "target_url": "https://practicetestautomation.com/practice/",
+    "target_url": "https://practicetestautomation.com/courses/",
     "content": {
-      "title": "Practice | Practice Test Automation",
-      "h1": "Practice",
-      "firstP": "Test Login Page",
+      "title": "Courses | Practice Test Automation",
+      "h1": "Courses",
+      "firstP": "Learn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.",
       "visible_items": [
         {
           "tag": "a",
@@ -20,12 +20,12 @@
         },
         {
           "tag": "div",
-          "text": "HOME PRACTICE COURSES BLOG CONTACT\nPractice\n\nTest Login Page\n\nSimple login page where testers can execute positive and negative login test cases\n\nTest Exceptions\n\nPage to reproduce the most common Selenium Exceptions.\n\nTest Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.\n\n\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
+          "text": "HOME PRACTICE COURSES BLOG CONTACT\nCourses\nSelenium WebDriver: Selenium Automation Testing with Java\n\nLearn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.\n\nMy top-rated, best-selling course \u2013 fully updated in 2024 for faster learning and career growth\n\nWhat you\u2019ll learn in this course:\n\nBuild a complete test automation framework with Selenium WebDriver\nWrite and run your first real browser automa",
           "bbox": {
             "top": 0,
             "left": 0,
             "width": 1265,
-            "height": 954
+            "height": 6700
           },
           "scrollY": 0
         },
@@ -42,89 +42,1046 @@
         },
         {
           "tag": "section",
-          "text": "Practice\n\nTest Login Page\n\nSimple login page where testers can execute positive and negative login test cases\n\nTest Exceptions\n\nPage to reproduce the most common Selenium Exceptions.\n\nTest Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
+          "text": "Courses\nSelenium WebDriver: Selenium Automation Testing with Java\n\nLearn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.\n\nMy top-rated, best-selling course \u2013 fully updated in 2024 for faster learning and career growth\n\nWhat you\u2019ll learn in this course:\n\nBuild a complete test automation framework with Selenium WebDriver\nWrite and run your first real browser automation tests\nUse TestNG for powerful ",
           "bbox": {
             "top": 221,
             "left": 0,
             "width": 1265,
-            "height": 661
+            "height": 6408
           },
           "scrollY": 0
         },
         {
           "tag": "div",
-          "text": "Test Login Page\n\nSimple login page where testers can execute positive and negative login test cases\n\nTest Exceptions\n\nPage to reproduce the most common Selenium Exceptions.\n\nTest Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
+          "text": "Selenium WebDriver: Selenium Automation Testing with Java\n\nLearn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.\n\nMy top-rated, best-selling course \u2013 fully updated in 2024 for faster learning and career growth\n\nWhat you\u2019ll learn in this course:\n\nBuild a complete test automation framework with Selenium WebDriver\nWrite and run your first real browser automation tests\nUse TestNG for powerful test str",
           "bbox": {
             "top": 311,
             "left": 257,
             "width": 752,
-            "height": 511
+            "height": 6257
           },
           "scrollY": 0
         },
         {
-          "tag": "div",
-          "text": "Test Login Page\n\nSimple login page where testers can execute positive and negative login test cases",
+          "tag": "h2",
+          "text": "Selenium WebDriver: Selenium Automation Testing with Java",
           "bbox": {
-            "top": 339,
+            "top": 311,
             "left": 269,
             "width": 728,
-            "height": 110
+            "height": 72
           },
           "scrollY": 0
         },
         {
-          "tag": "div",
-          "text": "Simple login page where testers can execute positive and negative login test cases",
+          "tag": "p",
+          "text": "Learn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.",
           "bbox": {
-            "top": 339,
-            "left": 535,
-            "width": 461,
-            "height": 110
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "Test Exceptions\n\nPage to reproduce the most common Selenium Exceptions.",
-          "bbox": {
-            "top": 510,
+            "top": 410,
             "left": 269,
             "width": 728,
-            "height": 82
+            "height": 56
           },
           "scrollY": 0
         },
         {
-          "tag": "div",
-          "text": "Page to reproduce the most common Selenium Exceptions.",
+          "tag": "p",
+          "text": "My top-rated, best-selling course \u2013 fully updated in 2024 for faster learning and career growth",
           "bbox": {
-            "top": 510,
-            "left": 535,
-            "width": 461,
-            "height": 82
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "Test Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
-          "bbox": {
-            "top": 652,
+            "top": 493,
             "left": 269,
             "width": 728,
-            "height": 110
+            "height": 101
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "strong",
+          "text": "My top-rated, best-selling course",
+          "bbox": {
+            "top": 518,
+            "left": 314,
+            "width": 270,
+            "height": 22
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "strong",
+          "text": "fully updated in 2024",
+          "bbox": {
+            "top": 518,
+            "left": 601,
+            "width": 173,
+            "height": 22
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "What you\u2019ll learn in this course:",
+          "bbox": {
+            "top": 621,
+            "left": 269,
+            "width": 728,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "ul",
+          "text": "Build a complete test automation framework with Selenium WebDriver\nWrite and run your first real browser automation tests\nUse TestNG for powerful test structure and reporting\nRun cross-browser tests in Chrome, Firefox, and Edge\nDebug and fix common Selenium test failures with confidence\nLearn Java programming essentials tailored for test automation\nPrepare for interviews and build your job-ready portfolio",
+          "bbox": {
+            "top": 676,
+            "left": 296,
+            "width": 674,
+            "height": 280
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Build a complete test automation framework with Selenium WebDriver",
+          "bbox": {
+            "top": 676,
+            "left": 296,
+            "width": 674,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Write and run your first real browser automation tests",
+          "bbox": {
+            "top": 732,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Use TestNG for powerful test structure and reporting",
+          "bbox": {
+            "top": 760,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Run cross-browser tests in Chrome, Firefox, and Edge",
+          "bbox": {
+            "top": 788,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Debug and fix common Selenium test failures with confidence",
+          "bbox": {
+            "top": 816,
+            "left": 296,
+            "width": 674,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Learn Java programming essentials tailored for test automation",
+          "bbox": {
+            "top": 872,
+            "left": 296,
+            "width": 674,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Prepare for interviews and build your job-ready portfolio",
+          "bbox": {
+            "top": 928,
+            "left": 296,
+            "width": 674,
+            "height": 28
           },
           "scrollY": 0
         },
         {
           "tag": "div",
-          "text": "Page to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
+          "text": "Enroll in this course on Udemy",
           "bbox": {
-            "top": 652,
-            "left": 535,
-            "width": 461,
-            "height": 110
+            "top": 983,
+            "left": 269,
+            "width": 476,
+            "height": 62
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Selenium WebDriver: Selenium Automation Testing with Python",
+          "bbox": {
+            "top": 1101,
+            "left": 269,
+            "width": 728,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Learn Selenium WebDriver with Python and PyTest from scratch. This hands-on course is perfect for manual testers and anyone new to automation.",
+          "bbox": {
+            "top": 1200,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Top-rated, easy-to-follow course updated in 2024 \u2013 start automating real browser tests fast",
+          "bbox": {
+            "top": 1283,
+            "left": 269,
+            "width": 728,
+            "height": 101
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "ul",
+          "text": "Set up test automation framework with Selenium WebDriver\nAutomate your first Selenium WebDriver test\nAutomate software tests using Python and PyTest\nExecute tests in Chrome, Firefox, and other browsers\nRecognize test failures and exceptions, and fix them\nUse PyTest for better test structure and maintenance",
+          "bbox": {
+            "top": 1466,
+            "left": 296,
+            "width": 674,
+            "height": 196
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Set up test automation framework with Selenium WebDriver",
+          "bbox": {
+            "top": 1466,
+            "left": 296,
+            "width": 674,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Automate your first Selenium WebDriver test",
+          "bbox": {
+            "top": 1522,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Automate software tests using Python and PyTest",
+          "bbox": {
+            "top": 1550,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Execute tests in Chrome, Firefox, and other browsers",
+          "bbox": {
+            "top": 1578,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Recognize test failures and exceptions, and fix them",
+          "bbox": {
+            "top": 1606,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Use PyTest for better test structure and maintenance",
+          "bbox": {
+            "top": 1634,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Start your test automation career by learning Java from this specifically designed for beginners course.",
+          "bbox": {
+            "top": 1870,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "All Java you need to start learning test automation",
+          "bbox": {
+            "top": 1953,
+            "left": 269,
+            "width": 728,
+            "height": 73
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "In this course you will learn:",
+          "bbox": {
+            "top": 2053,
+            "left": 269,
+            "width": 728,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "ul",
+          "text": "Starting from the scratch, installing Java and IDEs\nCreating a first project\nLearning basic things, data types\nLearning methods, classes, different functions\nPrinciples of Object Oriented Programimg\nAdvanced Java functions\nWorking with files\nTest frameworks",
+          "bbox": {
+            "top": 2108,
+            "left": 296,
+            "width": 674,
+            "height": 224
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Starting from the scratch, installing Java and IDEs",
+          "bbox": {
+            "top": 2108,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Creating a first project",
+          "bbox": {
+            "top": 2136,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Learning basic things, data types",
+          "bbox": {
+            "top": 2164,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Learning methods, classes, different functions",
+          "bbox": {
+            "top": 2192,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Principles of Object Oriented Programimg",
+          "bbox": {
+            "top": 2220,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Advanced Java functions",
+          "bbox": {
+            "top": 2248,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Python: The Complete Guide for Software Testers",
+          "bbox": {
+            "top": 2477,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Master Python for Testing: Automate Tests, Handle Exceptions, Explore OOP, and Dive into Python Libraries.",
+          "bbox": {
+            "top": 2540,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Dive Deep Into Python for Professional Software Testing",
+          "bbox": {
+            "top": 2623,
+            "left": 269,
+            "width": 728,
+            "height": 73
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "ul",
+          "text": "Master the basics and advanced concepts of Python programming.\nGain a deep understanding of Python\u2019s data types, structures, and control structures.\nLearn Object-Oriented Programming (OOP) in Python and apply OOP concepts like inheritance, encapsulation, and polymorphism.\nAcquire skills for software testing in Python, including unit testing with PyTest, and handling exceptions & errors.",
+          "bbox": {
+            "top": 2778,
+            "left": 296,
+            "width": 674,
+            "height": 280
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Master the basics and advanced concepts of Python programming.",
+          "bbox": {
+            "top": 2778,
+            "left": 296,
+            "width": 674,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Gain a deep understanding of Python\u2019s data types, structures, and control structures.",
+          "bbox": {
+            "top": 2834,
+            "left": 296,
+            "width": 674,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Learn Object-Oriented Programming (OOP) in Python and apply OOP concepts like inheritance, encapsulation, and polymorphism.",
+          "bbox": {
+            "top": 2890,
+            "left": 296,
+            "width": 674,
+            "height": 84
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Acquire skills for software testing in Python, including unit testing with PyTest, and handling exceptions & errors.",
+          "bbox": {
+            "top": 2974,
+            "left": 296,
+            "width": 674,
+            "height": 84
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Advanced Selenium WebDriver with Java and TestNG",
+          "bbox": {
+            "top": 3203,
+            "left": 269,
+            "width": 728,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "A real-world example of Advanced Selenium WebDriver test automation framework with Java and TestNG",
+          "bbox": {
+            "top": 3302,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "This course will make you a Selenium Pro",
+          "bbox": {
+            "top": 3385,
+            "left": 269,
+            "width": 728,
+            "height": 73
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "ul",
+          "text": "Develop Full-Stack Test Automation Framework from scratch\nImplement Data-Driven Test Framework\nUse Page Object Model\nAutomate almost any test case\nUse advanced Selenium WebDriver techniques (Taking screenshots, capturing JS console errors, etc)",
+          "bbox": {
+            "top": 3540,
+            "left": 296,
+            "width": 674,
+            "height": 196
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Develop Full-Stack Test Automation Framework from scratch",
+          "bbox": {
+            "top": 3540,
+            "left": 296,
+            "width": 674,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Implement Data-Driven Test Framework",
+          "bbox": {
+            "top": 3595,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Use Page Object Model",
+          "bbox": {
+            "top": 3623,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Automate almost any test case",
+          "bbox": {
+            "top": 3651,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Use advanced Selenium WebDriver techniques (Taking screenshots, capturing JS console errors, etc)",
+          "bbox": {
+            "top": 3679,
+            "left": 296,
+            "width": 674,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "XPath locators for Selenium",
+          "bbox": {
+            "top": 3881,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Build complex XPath locators for Selenium automation that will work on any web element",
+          "bbox": {
+            "top": 3944,
+            "left": 269,
+            "width": 728,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Bestseller course in the Selenium Testing Framework category",
+          "bbox": {
+            "top": 3998,
+            "left": 269,
+            "width": 728,
+            "height": 73
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "em",
+          "text": "Bestseller course in the",
+          "bbox": {
+            "top": 4023,
+            "left": 401,
+            "width": 170,
+            "height": 22
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "The XPath\u00a0is\u00a0the\u00a0most complicated\u00a0method of identifying elements. It can find the\u00a0location of any\u00a0element\u00a0on a web page, even those without class, name, or id attributes.\u00a0XPath produces reliable locators\u00a0if used correctly.",
+          "bbox": {
+            "top": 4098,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "ul",
+          "text": "Build complex XPath locators\nLocate ANY element on the page with XPath\nAutomate testing of any element on the web page",
+          "bbox": {
+            "top": 4292,
+            "left": 296,
+            "width": 674,
+            "height": 84
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Build complex XPath locators",
+          "bbox": {
+            "top": 4292,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Locate ANY element on the page with XPath",
+          "bbox": {
+            "top": 4320,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Automate testing of any element on the web page",
+          "bbox": {
+            "top": 4348,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "REST Assured. API test automation for beginners",
+          "bbox": {
+            "top": 4521,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Rest API test automation from scratch. Create a cool REST Assured framework with Java and TestNG",
+          "bbox": {
+            "top": 4584,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Highest Rated course in the REST Assured category",
+          "bbox": {
+            "top": 4667,
+            "left": 269,
+            "width": 728,
+            "height": 73
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "ul",
+          "text": "How to start REST API Automation using REST Assured\nCreating REST API testing framework from scratch with Maven and TestNG\nUse JsonPath and XmlPath\nSerialize and De-Serialize POJOs\nWork with Headers and Cookies\nUse Basic Authentication",
+          "bbox": {
+            "top": 4822,
+            "left": 296,
+            "width": 674,
+            "height": 196
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "How to start REST API Automation using REST Assured",
+          "bbox": {
+            "top": 4822,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Creating REST API testing framework from scratch with Maven and TestNG",
+          "bbox": {
+            "top": 4850,
+            "left": 296,
+            "width": 674,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Use JsonPath and XmlPath",
+          "bbox": {
+            "top": 4906,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Serialize and De-Serialize POJOs",
+          "bbox": {
+            "top": 4934,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Work with Headers and Cookies",
+          "bbox": {
+            "top": 4962,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Use Basic Authentication",
+          "bbox": {
+            "top": 4990,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Advanced Selenium Grid and Cloud",
+          "bbox": {
+            "top": 5163,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Advanced Selenium WebDriver test automation framework with Selenium Grid, Cloud and continuous test execution in Jenkins",
+          "bbox": {
+            "top": 5226,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Become SDET or even Test Automation Architect by learning Selenium Grid!",
+          "bbox": {
+            "top": 5309,
+            "left": 269,
+            "width": 728,
+            "height": 73
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "strong",
+          "text": "Test Automation Architect",
+          "bbox": {
+            "top": 5334,
+            "left": 520,
+            "width": 192,
+            "height": 22
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "ul",
+          "text": "Setting up Selenium Grid\nRunning tests on Selenium Grid\nAdvantages and disadvantages of Selenium Grid\nTest Automation cloud providers\nRunning tests in the cloud\nRunning tests on SauceLabs\nJenkins and continuous test execution",
+          "bbox": {
+            "top": 5464,
+            "left": 296,
+            "width": 674,
+            "height": 196
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Setting up Selenium Grid",
+          "bbox": {
+            "top": 5464,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Running tests on Selenium Grid",
+          "bbox": {
+            "top": 5492,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Advantages and disadvantages of Selenium Grid",
+          "bbox": {
+            "top": 5520,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Test Automation cloud providers",
+          "bbox": {
+            "top": 5548,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Running tests in the cloud",
+          "bbox": {
+            "top": 5576,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Running tests on SauceLabs",
+          "bbox": {
+            "top": 5604,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Jenkins and continuous test execution",
+          "bbox": {
+            "top": 5632,
+            "left": 296,
+            "width": 674,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Advanced Selenium testing framework with Java",
+          "bbox": {
+            "top": 5805,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Selenium WebDriver with Java, TestNG, and Maven. Learn Selenium Testing Framework with Java and TestNG",
+          "bbox": {
+            "top": 5868,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Quick-paced course for test automation engineers that want to improve their framework-building skills",
+          "bbox": {
+            "top": 5951,
+            "left": 269,
+            "width": 728,
+            "height": 101
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "In this course you will learn:\n\nBuild test framework in Selenium WebDriver from scratch using Java and TestNG\nCreate reliable, stable, and easily maintainable automated tests\nUse the Page Object Model for the better test structure\nMaster Selenium Webdriver\nCreate Data-Driven Test Framework",
+          "bbox": {
+            "top": 6079,
+            "left": 269,
+            "width": 728,
+            "height": 368
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "ul",
+          "text": "Build test framework in Selenium WebDriver from scratch using Java and TestNG\nCreate reliable, stable, and easily maintainable automated tests\nUse the Page Object Model for the better test structure\nMaster Selenium Webdriver\nCreate Data-Driven Test Framework",
+          "bbox": {
+            "top": 6161,
+            "left": 296,
+            "width": 292,
+            "height": 252
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Build test framework in Selenium WebDriver from scratch using Java and TestNG",
+          "bbox": {
+            "top": 6161,
+            "left": 296,
+            "width": 292,
+            "height": 84
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Create reliable, stable, and easily maintainable automated tests",
+          "bbox": {
+            "top": 6245,
+            "left": 296,
+            "width": 292,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Use the Page Object Model for the better test structure",
+          "bbox": {
+            "top": 6301,
+            "left": 296,
+            "width": 292,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Master Selenium Webdriver",
+          "bbox": {
+            "top": 6357,
+            "left": 296,
+            "width": 292,
+            "height": 28
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "li",
+          "text": "Create Data-Driven Test Framework",
+          "bbox": {
+            "top": 6385,
+            "left": 296,
+            "width": 292,
+            "height": 28
           },
           "scrollY": 0
         },
@@ -132,7 +1089,7 @@
           "tag": "div",
           "text": "\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
           "bbox": {
-            "top": 882,
+            "top": 6628,
             "left": 0,
             "width": 1265,
             "height": 72
@@ -143,7 +1100,7 @@
           "tag": "a",
           "text": "Practice Test Automation.",
           "bbox": {
-            "top": 908,
+            "top": 6655,
             "left": 480,
             "width": 189,
             "height": 19
@@ -151,11 +1108,11 @@
           "scrollY": 0
         }
       ],
-      "maxScrollY": 954
+      "maxScrollY": 6700
     }
   },
   {
-    "current_url": "https://practicetestautomation.com/practice/",
+    "current_url": "https://practicetestautomation.com/courses/",
     "target_url": "https://practicetestautomation.com/",
     "content": {
       "title": "Practice Test Automation | Learn Selenium WebDriver",
@@ -428,7 +1385,7 @@
         },
         {
           "tag": "div",
-          "text": "\u00a9  All rights reserved | Privacy Policy",
+          "text": "\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
           "bbox": {
             "top": 2150,
             "left": 0,
