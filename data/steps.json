@@ -1,6 +1,161 @@
 [
   {
     "current_url": "https://practicetestautomation.com/logged-in-successfully/",
+    "target_url": "https://practicetestautomation.com/practice/",
+    "content": {
+      "title": "Practice | Practice Test Automation",
+      "h1": "Practice",
+      "firstP": "Test Login Page",
+      "visible_items": [
+        {
+          "tag": "a",
+          "text": "Press \"Enter\" to skip to content",
+          "bbox": {
+            "top": -720,
+            "left": 0,
+            "width": 1265,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "HOME PRACTICE COURSES BLOG CONTACT\nPractice\n\nTest Login Page\n\nSimple login page where testers can execute positive and negative login test cases\n\nTest Exceptions\n\nPage to reproduce the most common Selenium Exceptions.\n\nTest Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.\n\n\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "width": 1265,
+            "height": 985
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "header",
+          "text": "HOME PRACTICE COURSES BLOG CONTACT",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "width": 1265,
+            "height": 173
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "section",
+          "text": "Practice\n\nTest Login Page\n\nSimple login page where testers can execute positive and negative login test cases\n\nTest Exceptions\n\nPage to reproduce the most common Selenium Exceptions.\n\nTest Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
+          "bbox": {
+            "top": 221,
+            "left": 0,
+            "width": 1265,
+            "height": 692
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Test Login Page\n\nSimple login page where testers can execute positive and negative login test cases\n\nTest Exceptions\n\nPage to reproduce the most common Selenium Exceptions.\n\nTest Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
+          "bbox": {
+            "top": 311,
+            "left": 257,
+            "width": 752,
+            "height": 542
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Test Login Page\n\nSimple login page where testers can execute positive and negative login test cases",
+          "bbox": {
+            "top": 339,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Simple login page where testers can execute positive and negative login test cases",
+          "bbox": {
+            "top": 339,
+            "left": 535,
+            "width": 461,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Test Exceptions\n\nPage to reproduce the most common Selenium Exceptions.",
+          "bbox": {
+            "top": 511,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Page to reproduce the most common Selenium Exceptions.",
+          "bbox": {
+            "top": 511,
+            "left": 535,
+            "width": 461,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Test Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
+          "bbox": {
+            "top": 683,
+            "left": 269,
+            "width": 728,
+            "height": 110
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Page to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
+          "bbox": {
+            "top": 683,
+            "left": 535,
+            "width": 461,
+            "height": 110
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
+          "bbox": {
+            "top": 913,
+            "left": 0,
+            "width": 1265,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "a",
+          "text": "Practice Test Automation.",
+          "bbox": {
+            "top": 939,
+            "left": 480,
+            "width": 189,
+            "height": 19
+          },
+          "scrollY": 0
+        }
+      ],
+      "maxScrollY": 985
+    }
+  },
+  {
+    "current_url": "https://practicetestautomation.com/practice/",
     "target_url": "https://practicetestautomation.com/",
     "content": {
       "title": "Practice Test Automation | Learn Selenium WebDriver",
@@ -295,161 +450,6 @@
         }
       ],
       "maxScrollY": 2222
-    }
-  },
-  {
-    "current_url": "https://practicetestautomation.com/",
-    "target_url": "https://practicetestautomation.com/practice/",
-    "content": {
-      "title": "Practice | Practice Test Automation",
-      "h1": "Practice",
-      "firstP": "Test Login Page",
-      "visible_items": [
-        {
-          "tag": "a",
-          "text": "Press \"Enter\" to skip to content",
-          "bbox": {
-            "top": -720,
-            "left": 0,
-            "width": 1265,
-            "height": 72
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "HOME PRACTICE COURSES BLOG CONTACT\nPractice\n\nTest Login Page\n\nSimple login page where testers can execute positive and negative login test cases\n\nTest Exceptions\n\nPage to reproduce the most common Selenium Exceptions.\n\nTest Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.\n\n\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
-          "bbox": {
-            "top": 0,
-            "left": 0,
-            "width": 1265,
-            "height": 954
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "header",
-          "text": "HOME PRACTICE COURSES BLOG CONTACT",
-          "bbox": {
-            "top": 0,
-            "left": 0,
-            "width": 1265,
-            "height": 173
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "section",
-          "text": "Practice\n\nTest Login Page\n\nSimple login page where testers can execute positive and negative login test cases\n\nTest Exceptions\n\nPage to reproduce the most common Selenium Exceptions.\n\nTest Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
-          "bbox": {
-            "top": 221,
-            "left": 0,
-            "width": 1265,
-            "height": 661
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "Test Login Page\n\nSimple login page where testers can execute positive and negative login test cases\n\nTest Exceptions\n\nPage to reproduce the most common Selenium Exceptions.\n\nTest Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
-          "bbox": {
-            "top": 311,
-            "left": 257,
-            "width": 752,
-            "height": 511
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "Test Login Page\n\nSimple login page where testers can execute positive and negative login test cases",
-          "bbox": {
-            "top": 339,
-            "left": 269,
-            "width": 728,
-            "height": 110
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "Simple login page where testers can execute positive and negative login test cases",
-          "bbox": {
-            "top": 339,
-            "left": 535,
-            "width": 461,
-            "height": 110
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "Test Exceptions\n\nPage to reproduce the most common Selenium Exceptions.",
-          "bbox": {
-            "top": 510,
-            "left": 269,
-            "width": 728,
-            "height": 82
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "Page to reproduce the most common Selenium Exceptions.",
-          "bbox": {
-            "top": 510,
-            "left": 535,
-            "width": 461,
-            "height": 82
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "Test Table\n\nPage to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
-          "bbox": {
-            "top": 652,
-            "left": 269,
-            "width": 728,
-            "height": 110
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "Page to practice UI interactions and data validation with dynamic tables, filters, and sorting controls.",
-          "bbox": {
-            "top": 652,
-            "left": 535,
-            "width": 461,
-            "height": 110
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "div",
-          "text": "\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
-          "bbox": {
-            "top": 882,
-            "left": 0,
-            "width": 1265,
-            "height": 72
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "a",
-          "text": "Practice Test Automation.",
-          "bbox": {
-            "top": 908,
-            "left": 480,
-            "width": 189,
-            "height": 19
-          },
-          "scrollY": 0
-        }
-      ],
-      "maxScrollY": 954
     }
   }
 ]
