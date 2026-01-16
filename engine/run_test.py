@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright
-from recorder.login import login
-from recorder.content import extract_content
-from recorder.steps_store import load_steps
-from recorder.report_context import add_step_result
+from engine.login import login
+from engine.content import extract_content
+from engine.steps_store import load_steps
+from engine.report_context import add_step_result
 import os
 
 

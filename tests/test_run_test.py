@@ -1,4 +1,4 @@
-from recorder.run_test import run_test
+from engine.run_test import run_test
 
 def test_run_test():
     run_test(

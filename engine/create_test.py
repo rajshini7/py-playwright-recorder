@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright, Page
-from recorder.login import login
-from recorder.content import extract_content
-from recorder.steps_store import save_steps
+from engine.login import login
+from engine.content import extract_content
+from engine.steps_store import save_steps
 
 
 def create_test(base_url: str, username: str, password: str):
