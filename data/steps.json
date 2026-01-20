@@ -1,11 +1,11 @@
 [
   {
     "current_url": "https://practicetestautomation.com/logged-in-successfully/",
-    "target_url": "https://practicetestautomation.com/courses/",
+    "target_url": "https://practicetestautomation.com/blog/",
     "content": {
-      "title": "Courses | Practice Test Automation",
-      "h1": "Courses",
-      "firstP": "Learn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.",
+      "title": "Blog | Practice Test Automation",
+      "h1": null,
+      "firstP": "Welcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this sixth part, we will explore the invaluable benefits of engaging with the Selenium community and expanding your professional network. Active participation in the test automation community can significantly enhance your career prospects, keep you updated with the latest trends, and connect you with industry leaders.",
       "visible_items": [
         {
           "tag": "a",
@@ -20,12 +20,12 @@
         },
         {
           "tag": "div",
-          "text": "HOME PRACTICE COURSES BLOG CONTACT\nCourses\nSelenium WebDriver: Selenium Automation Testing with Java\n\nLearn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.\n\nMy top-rated, best-selling course \u2013 fully updated in 2024 for faster learning and career growth\n\nWhat you\u2019ll learn in this course:\n\nBuild a complete test automation framework with Selenium WebDriver\nWrite and run your first real browser automa",
+          "text": "HOME PRACTICE COURSES BLOG CONTACT\nUnlock Your Future: Selenium WebDriver Career Launcher Part 6\nPublished by Dmitry Shyshkin on July 22, 2024\nEngaging with the Selenium Community and Expanding Your Network\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this sixth part, we will explore the invaluable benefits of engaging with the Selenium community and expanding your professional network. Active participation in the test automation community can significantly e",
           "bbox": {
             "top": 0,
             "left": 0,
             "width": 1265,
-            "height": 6700
+            "height": 13913
           },
           "scrollY": 0
         },
@@ -42,196 +42,86 @@
         },
         {
           "tag": "section",
-          "text": "Courses\nSelenium WebDriver: Selenium Automation Testing with Java\n\nLearn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.\n\nMy top-rated, best-selling course \u2013 fully updated in 2024 for faster learning and career growth\n\nWhat you\u2019ll learn in this course:\n\nBuild a complete test automation framework with Selenium WebDriver\nWrite and run your first real browser automation tests\nUse TestNG for powerful ",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 6\nPublished by Dmitry Shyshkin on July 22, 2024\nEngaging with the Selenium Community and Expanding Your Network\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this sixth part, we will explore the invaluable benefits of engaging with the Selenium community and expanding your professional network. Active participation in the test automation community can significantly enhance your career prospects, keep ",
           "bbox": {
             "top": 221,
             "left": 0,
             "width": 1265,
-            "height": 6408
+            "height": 13548
           },
           "scrollY": 0
         },
         {
           "tag": "div",
-          "text": "Selenium WebDriver: Selenium Automation Testing with Java\n\nLearn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.\n\nMy top-rated, best-selling course \u2013 fully updated in 2024 for faster learning and career growth\n\nWhat you\u2019ll learn in this course:\n\nBuild a complete test automation framework with Selenium WebDriver\nWrite and run your first real browser automation tests\nUse TestNG for powerful test str",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 6\nPublished by Dmitry Shyshkin on July 22, 2024\nEngaging with the Selenium Community and Expanding Your Network\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this sixth part, we will explore the invaluable benefits of engaging with the Selenium community and expanding your professional network. Active participation in the test automation community can significantly enhance your career prospects, keep ",
           "bbox": {
-            "top": 311,
+            "top": 221,
+            "left": 40,
+            "width": 1186,
+            "height": 13434
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 6\nPublished by Dmitry Shyshkin on July 22, 2024\nEngaging with the Selenium Community and Expanding Your Network\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this sixth part, we will explore the invaluable benefits of engaging with the Selenium community and expanding your professional network. Active participation in the test automation community can significantly enhance your career prospects, keep ",
+          "bbox": {
+            "top": 221,
+            "left": 182,
+            "width": 900,
+            "height": 1249
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 6\nPublished by Dmitry Shyshkin on July 22, 2024",
+          "bbox": {
+            "top": 221,
             "left": 257,
             "width": 752,
-            "height": 6257
+            "height": 192
           },
           "scrollY": 0
         },
         {
           "tag": "h2",
-          "text": "Selenium WebDriver: Selenium Automation Testing with Java",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 6",
           "bbox": {
-            "top": 311,
-            "left": 269,
-            "width": 728,
-            "height": 72
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Learn Selenium WebDriver with Java and TestNG from scratch. Perfect for manual testers and complete beginners ready to start automating real-world tests.",
-          "bbox": {
-            "top": 410,
-            "left": 269,
-            "width": 728,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "My top-rated, best-selling course \u2013 fully updated in 2024 for faster learning and career growth",
-          "bbox": {
-            "top": 493,
-            "left": 269,
-            "width": 728,
-            "height": 101
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "strong",
-          "text": "My top-rated, best-selling course",
-          "bbox": {
-            "top": 518,
-            "left": 314,
-            "width": 270,
-            "height": 22
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "strong",
-          "text": "fully updated in 2024",
-          "bbox": {
-            "top": 518,
-            "left": 601,
-            "width": 173,
-            "height": 22
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "What you\u2019ll learn in this course:",
-          "bbox": {
-            "top": 621,
-            "left": 269,
-            "width": 728,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "ul",
-          "text": "Build a complete test automation framework with Selenium WebDriver\nWrite and run your first real browser automation tests\nUse TestNG for powerful test structure and reporting\nRun cross-browser tests in Chrome, Firefox, and Edge\nDebug and fix common Selenium test failures with confidence\nLearn Java programming essentials tailored for test automation\nPrepare for interviews and build your job-ready portfolio",
-          "bbox": {
-            "top": 676,
-            "left": 296,
-            "width": 674,
-            "height": 280
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Build a complete test automation framework with Selenium WebDriver",
-          "bbox": {
-            "top": 676,
-            "left": 296,
-            "width": 674,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Write and run your first real browser automation tests",
-          "bbox": {
-            "top": 732,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Use TestNG for powerful test structure and reporting",
-          "bbox": {
-            "top": 760,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Run cross-browser tests in Chrome, Firefox, and Edge",
-          "bbox": {
-            "top": 788,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Debug and fix common Selenium test failures with confidence",
-          "bbox": {
-            "top": 816,
-            "left": 296,
-            "width": 674,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Learn Java programming essentials tailored for test automation",
-          "bbox": {
-            "top": 872,
-            "left": 296,
-            "width": 674,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Prepare for interviews and build your job-ready portfolio",
-          "bbox": {
-            "top": 928,
-            "left": 296,
-            "width": 674,
-            "height": 28
+            "top": 221,
+            "left": 257,
+            "width": 752,
+            "height": 162
           },
           "scrollY": 0
         },
         {
           "tag": "div",
-          "text": "Enroll in this course on Udemy",
+          "text": "Published by Dmitry Shyshkin on July 22, 2024",
           "bbox": {
-            "top": 983,
-            "left": 269,
-            "width": 476,
-            "height": 62
+            "top": 389,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Engaging with the Selenium Community and Expanding Your Network\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this sixth part, we will explore the invaluable benefits of engaging with the Selenium community and expanding your professional network. Active participation in the test automation community can significantly enhance your career prospects, keep you updated with the latest trends, and connect you with industry leaders.\n\nThe Importance of Community Enga",
+          "bbox": {
+            "top": 449,
+            "left": 257,
+            "width": 752,
+            "height": 1021
           },
           "scrollY": 0
         },
         {
           "tag": "h2",
-          "text": "Selenium WebDriver: Selenium Automation Testing with Python",
+          "text": "Engaging with the Selenium Community and Expanding Your Network",
           "bbox": {
-            "top": 1101,
+            "top": 449,
             "left": 269,
             "width": 728,
             "height": 72
@@ -240,449 +130,152 @@
         },
         {
           "tag": "p",
-          "text": "Learn Selenium WebDriver with Python and PyTest from scratch. This hands-on course is perfect for manual testers and anyone new to automation.",
+          "text": "Welcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this sixth part, we will explore the invaluable benefits of engaging with the Selenium community and expanding your professional network. Active participation in the test automation community can significantly enhance your career prospects, keep you updated with the latest trends, and connect you with industry leaders.",
           "bbox": {
-            "top": 1200,
+            "top": 599,
             "left": 269,
             "width": 728,
-            "height": 56
+            "height": 140
           },
           "scrollY": 0
         },
         {
-          "tag": "p",
-          "text": "Top-rated, easy-to-follow course updated in 2024 \u2013 start automating real browser tests fast",
+          "tag": "a",
+          "text": "\u201cSelenium WebDriver Career Launcher\u201d",
           "bbox": {
-            "top": 1283,
-            "left": 269,
-            "width": 728,
-            "height": 101
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "ul",
-          "text": "Set up test automation framework with Selenium WebDriver\nAutomate your first Selenium WebDriver test\nAutomate software tests using Python and PyTest\nExecute tests in Chrome, Firefox, and other browsers\nRecognize test failures and exceptions, and fix them\nUse PyTest for better test structure and maintenance",
-          "bbox": {
-            "top": 1466,
-            "left": 296,
-            "width": 674,
-            "height": 196
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Set up test automation framework with Selenium WebDriver",
-          "bbox": {
-            "top": 1466,
-            "left": 296,
-            "width": 674,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Automate your first Selenium WebDriver test",
-          "bbox": {
-            "top": 1522,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Automate software tests using Python and PyTest",
-          "bbox": {
-            "top": 1550,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Execute tests in Chrome, Firefox, and other browsers",
-          "bbox": {
-            "top": 1578,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Recognize test failures and exceptions, and fix them",
-          "bbox": {
-            "top": 1606,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Use PyTest for better test structure and maintenance",
-          "bbox": {
-            "top": 1634,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Start your test automation career by learning Java from this specifically designed for beginners course.",
-          "bbox": {
-            "top": 1870,
-            "left": 269,
-            "width": 728,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "All Java you need to start learning test automation",
-          "bbox": {
-            "top": 1953,
-            "left": 269,
-            "width": 728,
-            "height": 73
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "In this course you will learn:",
-          "bbox": {
-            "top": 2053,
-            "left": 269,
-            "width": 728,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "ul",
-          "text": "Starting from the scratch, installing Java and IDEs\nCreating a first project\nLearning basic things, data types\nLearning methods, classes, different functions\nPrinciples of Object Oriented Programimg\nAdvanced Java functions\nWorking with files\nTest frameworks",
-          "bbox": {
-            "top": 2108,
-            "left": 296,
-            "width": 674,
-            "height": 224
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Starting from the scratch, installing Java and IDEs",
-          "bbox": {
-            "top": 2108,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Creating a first project",
-          "bbox": {
-            "top": 2136,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Learning basic things, data types",
-          "bbox": {
-            "top": 2164,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Learning methods, classes, different functions",
-          "bbox": {
-            "top": 2192,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Principles of Object Oriented Programimg",
-          "bbox": {
-            "top": 2220,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Advanced Java functions",
-          "bbox": {
-            "top": 2248,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "h2",
-          "text": "Python: The Complete Guide for Software Testers",
-          "bbox": {
-            "top": 2477,
-            "left": 269,
-            "width": 728,
-            "height": 36
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Master Python for Testing: Automate Tests, Handle Exceptions, Explore OOP, and Dive into Python Libraries.",
-          "bbox": {
-            "top": 2540,
-            "left": 269,
-            "width": 728,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Dive Deep Into Python for Professional Software Testing",
-          "bbox": {
-            "top": 2623,
-            "left": 269,
-            "width": 728,
-            "height": 73
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "ul",
-          "text": "Master the basics and advanced concepts of Python programming.\nGain a deep understanding of Python\u2019s data types, structures, and control structures.\nLearn Object-Oriented Programming (OOP) in Python and apply OOP concepts like inheritance, encapsulation, and polymorphism.\nAcquire skills for software testing in Python, including unit testing with PyTest, and handling exceptions & errors.",
-          "bbox": {
-            "top": 2778,
-            "left": 296,
-            "width": 674,
-            "height": 280
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Master the basics and advanced concepts of Python programming.",
-          "bbox": {
-            "top": 2778,
-            "left": 296,
-            "width": 674,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Gain a deep understanding of Python\u2019s data types, structures, and control structures.",
-          "bbox": {
-            "top": 2834,
-            "left": 296,
-            "width": 674,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Learn Object-Oriented Programming (OOP) in Python and apply OOP concepts like inheritance, encapsulation, and polymorphism.",
-          "bbox": {
-            "top": 2890,
-            "left": 296,
-            "width": 674,
-            "height": 84
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Acquire skills for software testing in Python, including unit testing with PyTest, and handling exceptions & errors.",
-          "bbox": {
-            "top": 2974,
-            "left": 296,
-            "width": 674,
-            "height": 84
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "h2",
-          "text": "Advanced Selenium WebDriver with Java and TestNG",
-          "bbox": {
-            "top": 3203,
-            "left": 269,
-            "width": 728,
-            "height": 72
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "A real-world example of Advanced Selenium WebDriver test automation framework with Java and TestNG",
-          "bbox": {
-            "top": 3302,
-            "left": 269,
-            "width": 728,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "This course will make you a Selenium Pro",
-          "bbox": {
-            "top": 3385,
-            "left": 269,
-            "width": 728,
-            "height": 73
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "ul",
-          "text": "Develop Full-Stack Test Automation Framework from scratch\nImplement Data-Driven Test Framework\nUse Page Object Model\nAutomate almost any test case\nUse advanced Selenium WebDriver techniques (Taking screenshots, capturing JS console errors, etc)",
-          "bbox": {
-            "top": 3540,
-            "left": 296,
-            "width": 674,
-            "height": 196
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Develop Full-Stack Test Automation Framework from scratch",
-          "bbox": {
-            "top": 3540,
-            "left": 296,
-            "width": 674,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Implement Data-Driven Test Framework",
-          "bbox": {
-            "top": 3595,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Use Page Object Model",
-          "bbox": {
-            "top": 3623,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Automate almost any test case",
-          "bbox": {
-            "top": 3651,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Use advanced Selenium WebDriver techniques (Taking screenshots, capturing JS console errors, etc)",
-          "bbox": {
-            "top": 3679,
-            "left": 296,
-            "width": 674,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "h2",
-          "text": "XPath locators for Selenium",
-          "bbox": {
-            "top": 3881,
-            "left": 269,
-            "width": 728,
-            "height": 36
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Build complex XPath locators for Selenium automation that will work on any web element",
-          "bbox": {
-            "top": 3944,
-            "left": 269,
-            "width": 728,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Bestseller course in the Selenium Testing Framework category",
-          "bbox": {
-            "top": 3998,
-            "left": 269,
-            "width": 728,
-            "height": 73
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "em",
-          "text": "Bestseller course in the",
-          "bbox": {
-            "top": 4023,
-            "left": 401,
-            "width": 170,
+            "top": 601,
+            "left": 438,
+            "width": 313,
             "height": 22
           },
           "scrollY": 0
         },
         {
-          "tag": "p",
-          "text": "The XPath\u00a0is\u00a0the\u00a0most complicated\u00a0method of identifying elements. It can find the\u00a0location of any\u00a0element\u00a0on a web page, even those without class, name, or id attributes.\u00a0XPath produces reliable locators\u00a0if used correctly.",
+          "tag": "h3",
+          "text": "The Importance of Community Engagement",
           "bbox": {
-            "top": 4098,
+            "top": 766,
+            "left": 269,
+            "width": 728,
+            "height": 27
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Engaging with the test automation community is more than just staying informed; it\u2019s about building connections, sharing knowledge, and growing professionally. By actively participating in forums, following industry leaders, and attending events, you can gain insights, solve problems more efficiently, and establish yourself as a thought leader in the field.",
+          "bbox": {
+            "top": 820,
+            "left": 269,
+            "width": 728,
+            "height": 140
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Read More\nUnlock Your Future: Selenium WebDriver Career Launcher Part 6",
+          "bbox": {
+            "top": 1421,
+            "left": 269,
+            "width": 728,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 5\nPublished by Dmitry Shyshkin on July 15, 2024\nAcing Selenium WebDriver Job Interviews\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this fifth installment, we will focus on preparing for Selenium WebDriver job interviews. This post will equip you with the insights and strategies needed to make a strong impression during your interview. Let\u2019s dive into understanding potential employers, tailoring you",
+          "bbox": {
+            "top": 1530,
+            "left": 182,
+            "width": 900,
+            "height": 1519
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 5\nPublished by Dmitry Shyshkin on July 15, 2024",
+          "bbox": {
+            "top": 1530,
+            "left": 257,
+            "width": 752,
+            "height": 192
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 5",
+          "bbox": {
+            "top": 1530,
+            "left": 257,
+            "width": 752,
+            "height": 162
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Published by Dmitry Shyshkin on July 15, 2024",
+          "bbox": {
+            "top": 1698,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Acing Selenium WebDriver Job Interviews\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this fifth installment, we will focus on preparing for Selenium WebDriver job interviews. This post will equip you with the insights and strategies needed to make a strong impression during your interview. Let\u2019s dive into understanding potential employers, tailoring your personal story, and strategically presenting your projects.\n\nUnderstanding the Company\n\nFirst and foremost",
+          "bbox": {
+            "top": 1758,
+            "left": 257,
+            "width": 752,
+            "height": 1291
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Acing Selenium WebDriver Job Interviews",
+          "bbox": {
+            "top": 1758,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Welcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this fifth installment, we will focus on preparing for Selenium WebDriver job interviews. This post will equip you with the insights and strategies needed to make a strong impression during your interview. Let\u2019s dive into understanding potential employers, tailoring your personal story, and strategically presenting your projects.",
+          "bbox": {
+            "top": 1872,
+            "left": 269,
+            "width": 728,
+            "height": 140
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h3",
+          "text": "Understanding the Company",
+          "bbox": {
+            "top": 2039,
+            "left": 269,
+            "width": 728,
+            "height": 27
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "First and foremost, understanding the company is crucial for acing Selenium WebDriver Job Interviews. This knowledge allows you to tailor your responses to align with the company\u2019s values and needs. Start by researching the company\u2019s website, particularly their \u201cAbout\u201d page, to gain insights into their mission, services, and culture.",
+          "bbox": {
+            "top": 2093,
             "left": 269,
             "width": 728,
             "height": 112
@@ -690,398 +283,981 @@
           "scrollY": 0
         },
         {
-          "tag": "ul",
-          "text": "Build complex XPath locators\nLocate ANY element on the page with XPath\nAutomate testing of any element on the web page",
+          "tag": "p",
+          "text": "For instance, if you applied to Udemy, exploring Udemy\u2019s about page can provide valuable information. You can learn about their mission to improve lives through learning, their extensive global reach with over 70 million learners and 220,000 courses, and their commitment to diversity and inclusion.",
           "bbox": {
-            "top": 4292,
-            "left": 296,
-            "width": 674,
-            "height": 84
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Build complex XPath locators",
-          "bbox": {
-            "top": 4292,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Locate ANY element on the page with XPath",
-          "bbox": {
-            "top": 4320,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Automate testing of any element on the web page",
-          "bbox": {
-            "top": 4348,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "h2",
-          "text": "REST Assured. API test automation for beginners",
-          "bbox": {
-            "top": 4521,
+            "top": 2232,
             "left": 269,
             "width": 728,
-            "height": 36
+            "height": 112
           },
           "scrollY": 0
         },
         {
           "tag": "p",
-          "text": "Rest API test automation from scratch. Create a cool REST Assured framework with Java and TestNG",
+          "text": "Additionally, utilizing LinkedIn to look up the company can be incredibly beneficial. Search for profiles of employees in similar roles to understand their backgrounds and the kind of experience valued by the company. Investigate the company\u2019s tech stack and other relevant details to get a comprehensive understanding of their operations. This thorough research will help you craft responses that demonstrate how your skills and experiences align with their goals.",
           "bbox": {
-            "top": 4584,
+            "top": 2371,
             "left": 269,
             "width": 728,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Highest Rated course in the REST Assured category",
-          "bbox": {
-            "top": 4667,
-            "left": 269,
-            "width": 728,
-            "height": 73
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "ul",
-          "text": "How to start REST API Automation using REST Assured\nCreating REST API testing framework from scratch with Maven and TestNG\nUse JsonPath and XmlPath\nSerialize and De-Serialize POJOs\nWork with Headers and Cookies\nUse Basic Authentication",
-          "bbox": {
-            "top": 4822,
-            "left": 296,
-            "width": 674,
-            "height": 196
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "How to start REST API Automation using REST Assured",
-          "bbox": {
-            "top": 4822,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Creating REST API testing framework from scratch with Maven and TestNG",
-          "bbox": {
-            "top": 4850,
-            "left": 296,
-            "width": 674,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Use JsonPath and XmlPath",
-          "bbox": {
-            "top": 4906,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Serialize and De-Serialize POJOs",
-          "bbox": {
-            "top": 4934,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Work with Headers and Cookies",
-          "bbox": {
-            "top": 4962,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Use Basic Authentication",
-          "bbox": {
-            "top": 4990,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "h2",
-          "text": "Advanced Selenium Grid and Cloud",
-          "bbox": {
-            "top": 5163,
-            "left": 269,
-            "width": 728,
-            "height": 36
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Advanced Selenium WebDriver test automation framework with Selenium Grid, Cloud and continuous test execution in Jenkins",
-          "bbox": {
-            "top": 5226,
-            "left": 269,
-            "width": 728,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Become SDET or even Test Automation Architect by learning Selenium Grid!",
-          "bbox": {
-            "top": 5309,
-            "left": 269,
-            "width": 728,
-            "height": 73
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "strong",
-          "text": "Test Automation Architect",
-          "bbox": {
-            "top": 5334,
-            "left": 520,
-            "width": 192,
-            "height": 22
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "ul",
-          "text": "Setting up Selenium Grid\nRunning tests on Selenium Grid\nAdvantages and disadvantages of Selenium Grid\nTest Automation cloud providers\nRunning tests in the cloud\nRunning tests on SauceLabs\nJenkins and continuous test execution",
-          "bbox": {
-            "top": 5464,
-            "left": 296,
-            "width": 674,
-            "height": 196
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Setting up Selenium Grid",
-          "bbox": {
-            "top": 5464,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Running tests on Selenium Grid",
-          "bbox": {
-            "top": 5492,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Advantages and disadvantages of Selenium Grid",
-          "bbox": {
-            "top": 5520,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Test Automation cloud providers",
-          "bbox": {
-            "top": 5548,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Running tests in the cloud",
-          "bbox": {
-            "top": 5576,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Running tests on SauceLabs",
-          "bbox": {
-            "top": 5604,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "li",
-          "text": "Jenkins and continuous test execution",
-          "bbox": {
-            "top": 5632,
-            "left": 296,
-            "width": 674,
-            "height": 28
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "h2",
-          "text": "Advanced Selenium testing framework with Java",
-          "bbox": {
-            "top": 5805,
-            "left": 269,
-            "width": 728,
-            "height": 36
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Selenium WebDriver with Java, TestNG, and Maven. Learn Selenium Testing Framework with Java and TestNG",
-          "bbox": {
-            "top": 5868,
-            "left": 269,
-            "width": 728,
-            "height": 56
-          },
-          "scrollY": 0
-        },
-        {
-          "tag": "p",
-          "text": "Quick-paced course for test automation engineers that want to improve their framework-building skills",
-          "bbox": {
-            "top": 5951,
-            "left": 269,
-            "width": 728,
-            "height": 101
+            "height": 168
           },
           "scrollY": 0
         },
         {
           "tag": "div",
-          "text": "In this course you will learn:\n\nBuild test framework in Selenium WebDriver from scratch using Java and TestNG\nCreate reliable, stable, and easily maintainable automated tests\nUse the Page Object Model for the better test structure\nMaster Selenium Webdriver\nCreate Data-Driven Test Framework",
+          "text": "Read More\nUnlock Your Future: Selenium WebDriver Career Launcher Part 5",
           "bbox": {
-            "top": 6079,
+            "top": 3000,
             "left": 269,
             "width": 728,
-            "height": 368
+            "height": 50
           },
           "scrollY": 0
         },
         {
-          "tag": "ul",
-          "text": "Build test framework in Selenium WebDriver from scratch using Java and TestNG\nCreate reliable, stable, and easily maintainable automated tests\nUse the Page Object Model for the better test structure\nMaster Selenium Webdriver\nCreate Data-Driven Test Framework",
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 4\nPublished by Dmitry Shyshkin on July 8, 2024\nStrategically Navigating Selenium Job Listings\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this fourth installment, we will explore effective strategies for navigating job listings specifically for Selenium-related roles. Whether you\u2019re just starting out or looking to advance your career in test automation, understanding how to search and apply for these positions i",
           "bbox": {
-            "top": 6161,
-            "left": 296,
-            "width": 292,
-            "height": 252
+            "top": 3110,
+            "left": 182,
+            "width": 900,
+            "height": 1273
           },
           "scrollY": 0
         },
         {
-          "tag": "li",
-          "text": "Build test framework in Selenium WebDriver from scratch using Java and TestNG",
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 4\nPublished by Dmitry Shyshkin on July 8, 2024",
           "bbox": {
-            "top": 6161,
-            "left": 296,
-            "width": 292,
+            "top": 3110,
+            "left": 257,
+            "width": 752,
+            "height": 192
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 4",
+          "bbox": {
+            "top": 3110,
+            "left": 257,
+            "width": 752,
+            "height": 162
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Published by Dmitry Shyshkin on July 8, 2024",
+          "bbox": {
+            "top": 3278,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Strategically Navigating Selenium Job Listings\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this fourth installment, we will explore effective strategies for navigating job listings specifically for Selenium-related roles. Whether you\u2019re just starting out or looking to advance your career in test automation, understanding how to search and apply for these positions is crucial.\n\nEffective Selenium Job Searching\n\nFinding the right job starts with effective searching. Use pr",
+          "bbox": {
+            "top": 3338,
+            "left": 257,
+            "width": 752,
+            "height": 1045
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Strategically Navigating Selenium Job Listings",
+          "bbox": {
+            "top": 3338,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Welcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this fourth installment, we will explore effective strategies for navigating job listings specifically for Selenium-related roles. Whether you\u2019re just starting out or looking to advance your career in test automation, understanding how to search and apply for these positions is crucial.",
+          "bbox": {
+            "top": 3401,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h3",
+          "text": "Effective Selenium Job Searching",
+          "bbox": {
+            "top": 3540,
+            "left": 269,
+            "width": 728,
+            "height": 27
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Finding the right job starts with effective searching. Use precise keywords such as \u201cSelenium WebDriver,\u201d \u201cQA Automation with Selenium,\u201d or specific programming languages like \u201cJava Selenium\u201d or \u201cPython Selenium.\u201d Broad terms like \u201ctest automation\u201d may yield too many unrelated results. Take advantage of job platform filters to refine your search based on location, experience level, and job type. LinkedIn\u2019s job search feature is a great starting point.",
+          "bbox": {
+            "top": 3594,
+            "left": 269,
+            "width": 728,
+            "height": 140
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "a",
+          "text": "LinkedIn\u2019s job search",
+          "bbox": {
+            "top": 3708,
+            "left": 577,
+            "width": 162,
+            "height": 22
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Using multiple job platforms can also increase your chances of finding the right job. In addition to LinkedIn, consider using sites like Indeed, Glassdoor, and specialized tech job boards like Stack Overflow Jobs. Setting up job alerts on these platforms can ensure you receive notifications for new job postings that match your criteria.",
+          "bbox": {
+            "top": 3761,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Read More\nUnlock Your Future: Selenium WebDriver Career Launcher Part 4",
+          "bbox": {
+            "top": 4333,
+            "left": 269,
+            "width": 728,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 3\nPublished by Dmitry Shyshkin on July 1, 2024\nCrafting a Winning Resume for Selenium Automation Roles\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this third part, we will explore the essentials of creating a winning resume for Selenium automation. Your resume is often the first impression you make on potential employers, so it\u2019s crucial to present your skills and experiences effectively. A well-str",
+          "bbox": {
+            "top": 4443,
+            "left": 182,
+            "width": 900,
+            "height": 1388
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 3\nPublished by Dmitry Shyshkin on July 1, 2024",
+          "bbox": {
+            "top": 4443,
+            "left": 257,
+            "width": 752,
+            "height": 192
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 3",
+          "bbox": {
+            "top": 4443,
+            "left": 257,
+            "width": 752,
+            "height": 162
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Published by Dmitry Shyshkin on July 1, 2024",
+          "bbox": {
+            "top": 4611,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Crafting a Winning Resume for Selenium Automation Roles\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this third part, we will explore the essentials of creating a winning resume for Selenium automation. Your resume is often the first impression you make on potential employers, so it\u2019s crucial to present your skills and experiences effectively. A well-structured resume can open doors and significantly impact your job search journey. We\u2019ll cover how to highligh",
+          "bbox": {
+            "top": 4671,
+            "left": 257,
+            "width": 752,
+            "height": 1160
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Crafting a Winning Resume for Selenium Automation Roles",
+          "bbox": {
+            "top": 4671,
+            "left": 269,
+            "width": 728,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Welcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this third part, we will explore the essentials of creating a winning resume for Selenium automation. Your resume is often the first impression you make on potential employers, so it\u2019s crucial to present your skills and experiences effectively. A well-structured resume can open doors and significantly impact your job search journey. We\u2019ll cover how to highlight your technical skills and project experiences to craft a standout re",
+          "bbox": {
+            "top": 4821,
+            "left": 269,
+            "width": 728,
+            "height": 168
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h3",
+          "text": "Highlighting Your Selenium Skills",
+          "bbox": {
+            "top": 5016,
+            "left": 269,
+            "width": 728,
+            "height": 27
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Your technical skills are the backbone of your resume. When listing your Selenium WebDriver proficiency, make sure it stands out. Start by prominently featuring your experience with Selenium WebDriver and any relevant programming languages such as Java, Python, or JavaScript. This showcases your capability to handle automation tasks efficiently and is essential for creating a winning resume for Selenium automation.",
+          "bbox": {
+            "top": 5070,
+            "left": 269,
+            "width": 728,
+            "height": 140
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "For frameworks and tools, mention your experience with TestNG, JUnit, or PyTest, and any integration with CI/CD tools like Jenkins or Docker. Highlighting these skills demonstrates your familiarity with modern development practices and testing environments.",
+          "bbox": {
+            "top": 5237,
+            "left": 269,
+            "width": 728,
             "height": 84
           },
           "scrollY": 0
         },
         {
-          "tag": "li",
-          "text": "Create reliable, stable, and easily maintainable automated tests",
+          "tag": "div",
+          "text": "Read More\nUnlock Your Future: Selenium WebDriver Career Launcher Part 3",
           "bbox": {
-            "top": 6245,
-            "left": 296,
-            "width": 292,
-            "height": 56
+            "top": 5782,
+            "left": 269,
+            "width": 728,
+            "height": 50
           },
           "scrollY": 0
         },
         {
-          "tag": "li",
-          "text": "Use the Page Object Model for the better test structure",
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 2\nPublished by Dmitry Shyshkin on June 24, 2024\nMastering Portfolio Development with Selenium WebDriver\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this second part, we delve into the crucial aspect of Selenium WebDriver portfolio development. Building a robust portfolio is essential for showcasing your practical skills and making you an ideal candidate for automation roles. We will explore various ",
           "bbox": {
-            "top": 6301,
-            "left": 296,
-            "width": 292,
-            "height": 56
+            "top": 5891,
+            "left": 182,
+            "width": 900,
+            "height": 1360
           },
           "scrollY": 0
         },
         {
-          "tag": "li",
-          "text": "Master Selenium Webdriver",
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 2\nPublished by Dmitry Shyshkin on June 24, 2024",
           "bbox": {
-            "top": 6357,
-            "left": 296,
-            "width": 292,
+            "top": 5891,
+            "left": 257,
+            "width": 752,
+            "height": 192
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 2",
+          "bbox": {
+            "top": 5891,
+            "left": 257,
+            "width": 752,
+            "height": 162
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Published by Dmitry Shyshkin on June 24, 2024",
+          "bbox": {
+            "top": 6060,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Mastering Portfolio Development with Selenium WebDriver\nIntroduction\n\nWelcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this second part, we delve into the crucial aspect of Selenium WebDriver portfolio development. Building a robust portfolio is essential for showcasing your practical skills and making you an ideal candidate for automation roles. We will explore various projects that demonstrate your Selenium expertise and provide practical advice on documenting and presenting",
+          "bbox": {
+            "top": 6120,
+            "left": 257,
+            "width": 752,
+            "height": 1132
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Mastering Portfolio Development with Selenium WebDriver",
+          "bbox": {
+            "top": 6120,
+            "left": 269,
+            "width": 728,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Welcome back to our \u201cSelenium WebDriver Career Launcher\u201d series! In this second part, we delve into the crucial aspect of Selenium WebDriver portfolio development. Building a robust portfolio is essential for showcasing your practical skills and making you an ideal candidate for automation roles. We will explore various projects that demonstrate your Selenium expertise and provide practical advice on documenting and presenting your work effectively.",
+          "bbox": {
+            "top": 6270,
+            "left": 269,
+            "width": 728,
+            "height": 140
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Building a strong portfolio with practical Selenium WebDriver portfolio development projects is a crucial step in securing your first automation role. These projects not only highlight your technical skills but also showcase your ability to apply them to real-world scenarios.",
+          "bbox": {
+            "top": 6436,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "strong",
+          "text": "Selenium WebDriver portfolio development",
+          "bbox": {
+            "top": 6439,
+            "left": 586,
+            "width": 360,
+            "height": 22
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h3",
+          "text": "The Importance of a Strong Portfolio",
+          "bbox": {
+            "top": 6575,
+            "left": 269,
+            "width": 728,
+            "height": 27
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Your portfolio serves as tangible proof of your abilities. It not only highlights your technical skills but also demonstrates your problem-solving capabilities and creativity. Employers are looking for candidates who can apply their knowledge to real-world scenarios, and a well-crafted portfolio can set you apart from the competition.",
+          "bbox": {
+            "top": 6629,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Read More\nUnlock Your Future: Selenium WebDriver Career Launcher Part 2",
+          "bbox": {
+            "top": 7202,
+            "left": 269,
+            "width": 728,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 1\nPublished by Dmitry Shyshkin on June 17, 2024\nElevating Your Career with Selenium WebDriver\nIntroduction\n\nWelcome to the first part of our series, \u201cSelenium WebDriver Career Launcher.\u201d This series is crafted for those who have mastered the basics of Selenium WebDriver. It is designed for those ready to start their careers in test automation. While having Selenium skills is a tremendous asset, getting your first job requires proactive ",
+          "bbox": {
+            "top": 7312,
+            "left": 182,
+            "width": 900,
+            "height": 1241
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 1\nPublished by Dmitry Shyshkin on June 17, 2024",
+          "bbox": {
+            "top": 7312,
+            "left": 257,
+            "width": 752,
+            "height": 192
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Unlock Your Future: Selenium WebDriver Career Launcher Part 1",
+          "bbox": {
+            "top": 7312,
+            "left": 257,
+            "width": 752,
+            "height": 162
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Published by Dmitry Shyshkin on June 17, 2024",
+          "bbox": {
+            "top": 7480,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Elevating Your Career with Selenium WebDriver\nIntroduction\n\nWelcome to the first part of our series, \u201cSelenium WebDriver Career Launcher.\u201d This series is crafted for those who have mastered the basics of Selenium WebDriver. It is designed for those ready to start their careers in test automation. While having Selenium skills is a tremendous asset, getting your first job requires proactive and strategic efforts. This series aims to provide you with the necessary tools and knowledge. It will help ",
+          "bbox": {
+            "top": 7540,
+            "left": 257,
+            "width": 752,
+            "height": 1013
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Elevating Your Career with Selenium WebDriver",
+          "bbox": {
+            "top": 7540,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Welcome to the first part of our series, \u201cSelenium WebDriver Career Launcher.\u201d This series is crafted for those who have mastered the basics of Selenium WebDriver. It is designed for those ready to start their careers in test automation. While having Selenium skills is a tremendous asset, getting your first job requires proactive and strategic efforts. This series aims to provide you with the necessary tools and knowledge. It will help you navigate the job market and secure your first position i",
+          "bbox": {
+            "top": 7654,
+            "left": 269,
+            "width": 728,
+            "height": 168
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h3",
+          "text": "The Critical Role of Selenium WebDriver in Test Automation",
+          "bbox": {
+            "top": 7849,
+            "left": 269,
+            "width": 728,
+            "height": 27
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Selenium WebDriver is essential in the field of test automation. It automates web browsers to perform complex test scenarios that mimic real user interactions. This makes Selenium WebDriver a crucial tool for any tech professional. It is indispensable for those aiming to excel in the dynamic field of software testing. By mastering Selenium WebDriver, you are taking a significant step toward advancing your Selenium WebDriver career.",
+          "bbox": {
+            "top": 7903,
+            "left": 269,
+            "width": 728,
+            "height": 140
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Read More\nUnlock Your Future: Selenium WebDriver Career Launcher Part 1",
+          "bbox": {
+            "top": 8504,
+            "left": 269,
+            "width": 728,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Headless Browser Testing with Selenium: Elevate Your Expertise\nPublished by Dmitry Shyshkin on January 11, 2024\nIntroduction\n\nIn the ever-evolving world of software development, test automation stands as a cornerstone, ensuring the reliability and efficiency of applications. Among the diverse techniques available, headless browser testing has emerged as a key player. Leveraging tools like Selenium WebDriver, this approach allows automation engineers to run browser-based tests without the overhea",
+          "bbox": {
+            "top": 8613,
+            "left": 182,
+            "width": 900,
+            "height": 1267
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Headless Browser Testing with Selenium: Elevate Your Expertise\nPublished by Dmitry Shyshkin on January 11, 2024",
+          "bbox": {
+            "top": 8613,
+            "left": 257,
+            "width": 752,
+            "height": 138
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Headless Browser Testing with Selenium: Elevate Your Expertise",
+          "bbox": {
+            "top": 8613,
+            "left": 257,
+            "width": 752,
+            "height": 108
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Published by Dmitry Shyshkin on January 11, 2024",
+          "bbox": {
+            "top": 8727,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Introduction\n\nIn the ever-evolving world of software development, test automation stands as a cornerstone, ensuring the reliability and efficiency of applications. Among the diverse techniques available, headless browser testing has emerged as a key player. Leveraging tools like Selenium WebDriver, this approach allows automation engineers to run browser-based tests without the overhead of a graphical user interface. This article dives into the intricacies of headless browser testing with Seleni",
+          "bbox": {
+            "top": 8787,
+            "left": 257,
+            "width": 752,
+            "height": 1093
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "In the ever-evolving world of software development, test automation stands as a cornerstone, ensuring the reliability and efficiency of applications. Among the diverse techniques available, headless browser testing has emerged as a key player. Leveraging tools like Selenium WebDriver, this approach allows automation engineers to run browser-based tests without the overhead of a graphical user interface. This article dives into the intricacies of headless browser testing with Selenium, unpacking ",
+          "bbox": {
+            "top": 8841,
+            "left": 269,
+            "width": 728,
+            "height": 196
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h3",
+          "text": "What is Headless Browser Testing?",
+          "bbox": {
+            "top": 9064,
+            "left": 269,
+            "width": 728,
+            "height": 27
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Headless browser testing with Selenium is a game-changer in the realm of test automation. But what exactly does it entail? In simple terms, it\u2019s running browser tests without the user interface you typically see. Think of it as operating your browser in the background, unseen to the naked eye. This method is not just a neat trick; it\u2019s packed with advantages. Speed is a significant factor\u2014tests run remarkably faster since they aren\u2019t bogged down by the graphical load. It also means less strain o",
+          "bbox": {
+            "top": 9118,
+            "left": 269,
+            "width": 728,
+            "height": 252
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Read More\nHeadless Browser Testing with Selenium: Elevate Your Expertise",
+          "bbox": {
+            "top": 9831,
+            "left": 269,
+            "width": 728,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock the Potential: Mastering the Test Automation Pyramid\nPublished by Dmitry Shyshkin on June 14, 2023\n\nThe Test Automation Pyramid is a key framework in software testing. It presents an ideal mix of automated tests. It covers unit tests, service tests, and UI tests. This blend forms the backbone of effective testing.\n\nEmployed correctly, this strategy enhances testing productivity. It does so by promoting broad test coverage. Early issue detection is a major focus. This improves software qua",
+          "bbox": {
+            "top": 9940,
+            "left": 182,
+            "width": 900,
+            "height": 1177
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unlock the Potential: Mastering the Test Automation Pyramid\nPublished by Dmitry Shyshkin on June 14, 2023",
+          "bbox": {
+            "top": 9940,
+            "left": 257,
+            "width": 752,
+            "height": 138
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Unlock the Potential: Mastering the Test Automation Pyramid",
+          "bbox": {
+            "top": 9940,
+            "left": 257,
+            "width": 752,
+            "height": 108
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Published by Dmitry Shyshkin on June 14, 2023",
+          "bbox": {
+            "top": 10055,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "The Test Automation Pyramid is a key framework in software testing. It presents an ideal mix of automated tests. It covers unit tests, service tests, and UI tests. This blend forms the backbone of effective testing.\n\nEmployed correctly, this strategy enhances testing productivity. It does so by promoting broad test coverage. Early issue detection is a major focus. This improves software quality and assures reliability. In short, it\u2019s the foundation for successful software development.\n\nUnderstan",
+          "bbox": {
+            "top": 10115,
+            "left": 257,
+            "width": 752,
+            "height": 1003
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "The Test Automation Pyramid is a key framework in software testing. It presents an ideal mix of automated tests. It covers unit tests, service tests, and UI tests. This blend forms the backbone of effective testing.",
+          "bbox": {
+            "top": 10535,
+            "left": 269,
+            "width": 728,
+            "height": 84
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Employed correctly, this strategy enhances testing productivity. It does so by promoting broad test coverage. Early issue detection is a major focus. This improves software quality and assures reliability. In short, it\u2019s the foundation for successful software development.",
+          "bbox": {
+            "top": 10646,
+            "left": 269,
+            "width": 728,
+            "height": 84
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Understanding the Layers of the Pyramid",
+          "bbox": {
+            "top": 10757,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Let\u2019s delve deeper into the distinct layers of the pyramid.",
+          "bbox": {
+            "top": 10820,
+            "left": 269,
+            "width": 728,
             "height": 28
           },
           "scrollY": 0
         },
         {
-          "tag": "li",
-          "text": "Create Data-Driven Test Framework",
+          "tag": "p",
+          "text": "Occupying the base layer of the pyramid, unit tests are small, efficient, and typically plentiful. They focus on testing individual components, functions, or methods within the codebase. By their nature, unit tests are quick to execute, easy to maintain, and highly effective in identifying issues at the code level.",
           "bbox": {
-            "top": 6385,
-            "left": 296,
-            "width": 292,
-            "height": 28
+            "top": 10929,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Read More\nUnlock the Potential: Mastering the Test Automation Pyramid",
+          "bbox": {
+            "top": 11068,
+            "left": 269,
+            "width": 728,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unusual Uses for Selenium WebDriver\nPublished by Dmitry Shyshkin on June 4, 2023\n\nSelenium WebDriver is a popular tool known for automating browsers, primarily for testing web applications. However, its potential extends far beyond this conventional use. In this article, we will explore the unusual and innovative uses of Selenium WebDriver, demonstrating how it can be leveraged for tasks such as data scraping, automating web-based administration tasks, and performance monitoring, among others. P",
+          "bbox": {
+            "top": 11177,
+            "left": 182,
+            "width": 900,
+            "height": 1255
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Unusual Uses for Selenium WebDriver\nPublished by Dmitry Shyshkin on June 4, 2023",
+          "bbox": {
+            "top": 11177,
+            "left": 257,
+            "width": 752,
+            "height": 138
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Unusual Uses for Selenium WebDriver",
+          "bbox": {
+            "top": 11177,
+            "left": 257,
+            "width": 752,
+            "height": 108
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Published by Dmitry Shyshkin on June 4, 2023",
+          "bbox": {
+            "top": 11292,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Selenium WebDriver is a popular tool known for automating browsers, primarily for testing web applications. However, its potential extends far beyond this conventional use. In this article, we will explore the unusual and innovative uses of Selenium WebDriver, demonstrating how it can be leveraged for tasks such as data scraping, automating web-based administration tasks, and performance monitoring, among others. Prepare to discover the versatility of Selenium WebDriver beyond web testing.\n\n1. W",
+          "bbox": {
+            "top": 11352,
+            "left": 257,
+            "width": 752,
+            "height": 1081
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Selenium WebDriver is a popular tool known for automating browsers, primarily for testing web applications. However, its potential extends far beyond this conventional use. In this article, we will explore the unusual and innovative uses of Selenium WebDriver, demonstrating how it can be leveraged for tasks such as data scraping, automating web-based administration tasks, and performance monitoring, among others. Prepare to discover the versatility of Selenium WebDriver beyond web testing.",
+          "bbox": {
+            "top": 11352,
+            "left": 269,
+            "width": 728,
+            "height": 168
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "1. Web Scraping: Leveraging Selenium WebDriver for Efficient Data Extraction",
+          "bbox": {
+            "top": 12034,
+            "left": 269,
+            "width": 728,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Selenium, primarily a testing tool, offers efficient web scraping capabilities for gathering data from websites. Selenium is commonly used when websites are AJAX and JavaScript-intensive, allowing interaction with dynamic web content and enabling extraction of dynamically loaded data.",
+          "bbox": {
+            "top": 12133,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "By utilizing Selenium, you can navigate through the pages, click buttons, fill forms, scroll down, and many more interactive actions that traditional web scraping libraries struggle with, thus making data extraction more straightforward.",
+          "bbox": {
+            "top": 12272,
+            "left": 269,
+            "width": 728,
+            "height": 84
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Read More\nUnusual Uses for Selenium WebDriver",
+          "bbox": {
+            "top": 12383,
+            "left": 269,
+            "width": 728,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Starting with Selenium WebDriver and Java: An Overview for Beginners\nPublished by Dmitry Shyshkin on May 26, 2023\n\nSoftware testing plays a crucial role in the software development process. It ensures that the applications you develop, function as expected and deliver a seamless user experience. One tool that stands out in this testing space is Selenium WebDriver. In this blog post, we\u2019ll delve into the world of Selenium, discuss why Java is a preferred language when using WebDriver, and introdu",
+          "bbox": {
+            "top": 12493,
+            "left": 182,
+            "width": 900,
+            "height": 1103
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Starting with Selenium WebDriver and Java: An Overview for Beginners\nPublished by Dmitry Shyshkin on May 26, 2023",
+          "bbox": {
+            "top": 12493,
+            "left": 257,
+            "width": 752,
+            "height": 192
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Starting with Selenium WebDriver and Java: An Overview for Beginners",
+          "bbox": {
+            "top": 12493,
+            "left": 257,
+            "width": 752,
+            "height": 162
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Published by Dmitry Shyshkin on May 26, 2023",
+          "bbox": {
+            "top": 12661,
+            "left": 257,
+            "width": 752,
+            "height": 24
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Software testing plays a crucial role in the software development process. It ensures that the applications you develop, function as expected and deliver a seamless user experience. One tool that stands out in this testing space is Selenium WebDriver. In this blog post, we\u2019ll delve into the world of Selenium, discuss why Java is a preferred language when using WebDriver, and introduce you to a beginner-friendly course designed to elevate your software testing skills.\n\nUnderstanding Selenium\n\nSel",
+          "bbox": {
+            "top": 12721,
+            "left": 257,
+            "width": 752,
+            "height": 875
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Software testing plays a crucial role in the software development process. It ensures that the applications you develop, function as expected and deliver a seamless user experience. One tool that stands out in this testing space is Selenium WebDriver. In this blog post, we\u2019ll delve into the world of Selenium, discuss why Java is a preferred language when using WebDriver, and introduce you to a beginner-friendly course designed to elevate your software testing skills.",
+          "bbox": {
+            "top": 12721,
+            "left": 269,
+            "width": 728,
+            "height": 168
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "h2",
+          "text": "Understanding Selenium",
+          "bbox": {
+            "top": 13344,
+            "left": 269,
+            "width": 728,
+            "height": 36
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Selenium WebDriver is an open-source automation tool that allows you to perform actions on a web application just like a human user would, automating browser activities and interaction with web elements. It is an essential component of the Selenium suite, a prominent toolset for automating web browsers across various platforms.",
+          "bbox": {
+            "top": 13407,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "a",
+          "text": "open-source automation tool",
+          "bbox": {
+            "top": 13409,
+            "left": 475,
+            "width": 228,
+            "height": 22
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Read More\nStarting with Selenium WebDriver and Java: An Overview for Beginners",
+          "bbox": {
+            "top": 13546,
+            "left": 269,
+            "width": 728,
+            "height": 50
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "nav",
+          "text": "Posts pagination\n1 2 3 Next",
+          "bbox": {
+            "top": 13727,
+            "left": 40,
+            "width": 1186,
+            "height": 42
           },
           "scrollY": 0
         },
@@ -1089,7 +1265,7 @@
           "tag": "div",
           "text": "\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
           "bbox": {
-            "top": 6628,
+            "top": 13841,
             "left": 0,
             "width": 1265,
             "height": 72
@@ -1100,7 +1276,7 @@
           "tag": "a",
           "text": "Practice Test Automation.",
           "bbox": {
-            "top": 6655,
+            "top": 13867,
             "left": 480,
             "width": 189,
             "height": 19
@@ -1108,11 +1284,155 @@
           "scrollY": 0
         }
       ],
-      "maxScrollY": 6700
+      "maxScrollY": 13913
     }
   },
   {
-    "current_url": "https://practicetestautomation.com/courses/",
+    "current_url": "https://practicetestautomation.com/blog/",
+    "target_url": "https://practicetestautomation.com/contact/",
+    "content": {
+      "title": "Contact | Practice Test Automation | Selenium WebDriver",
+      "h1": "Contact",
+      "firstP": "If you have questions, suggestions, or business proposals, fill up the form below and I\u2019ll be in touch as soon as I get it!",
+      "visible_items": [
+        {
+          "tag": "a",
+          "text": "Press \"Enter\" to skip to content",
+          "bbox": {
+            "top": -720,
+            "left": 0,
+            "width": 1265,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "HOME PRACTICE COURSES BLOG CONTACT\nContact\n\nIf you have questions, suggestions, or business proposals, fill up the form below and I\u2019ll be in touch as soon as I get it!\n\nName *\nFirst\nLast\nEmail *\nComment or Message *\nSubmit\n\n\nThank you,\nDmitry Shyshkin\nHappy Testing!\n\n\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "width": 1265,
+            "height": 1399
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "header",
+          "text": "HOME PRACTICE COURSES BLOG CONTACT",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "width": 1265,
+            "height": 173
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "section",
+          "text": "Contact\n\nIf you have questions, suggestions, or business proposals, fill up the form below and I\u2019ll be in touch as soon as I get it!\n\nName *\nFirst\nLast\nEmail *\nComment or Message *\nSubmit\n\n\nThank you,\nDmitry Shyshkin\nHappy Testing!",
+          "bbox": {
+            "top": 221,
+            "left": 0,
+            "width": 1265,
+            "height": 1106
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "If you have questions, suggestions, or business proposals, fill up the form below and I\u2019ll be in touch as soon as I get it!\n\nName *\nFirst\nLast\nEmail *\nComment or Message *\nSubmit\n\n\nThank you,\nDmitry Shyshkin\nHappy Testing!",
+          "bbox": {
+            "top": 311,
+            "left": 257,
+            "width": 752,
+            "height": 956
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "If you have questions, suggestions, or business proposals, fill up the form below and I\u2019ll be in touch as soon as I get it!",
+          "bbox": {
+            "top": 578,
+            "left": 269,
+            "width": 728,
+            "height": 56
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Name *\nFirst\nLast\nEmail *\nComment or Message *\nSubmit",
+          "bbox": {
+            "top": 661,
+            "left": 269,
+            "width": 728,
+            "height": 440
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Name *\nFirst\nLast\nEmail *\nComment or Message *",
+          "bbox": {
+            "top": 661,
+            "left": 269,
+            "width": 728,
+            "height": 351
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "Comment or Message *",
+          "bbox": {
+            "top": 847,
+            "left": 269,
+            "width": 728,
+            "height": 165
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "p",
+          "text": "Thank you,\nDmitry Shyshkin\nHappy Testing!",
+          "bbox": {
+            "top": 1128,
+            "left": 269,
+            "width": 728,
+            "height": 112
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "div",
+          "text": "\u00a9 Copyright 2020 Practice Test Automation. All rights reserved | Privacy Policy",
+          "bbox": {
+            "top": 1327,
+            "left": 0,
+            "width": 1265,
+            "height": 72
+          },
+          "scrollY": 0
+        },
+        {
+          "tag": "a",
+          "text": "Practice Test Automation.",
+          "bbox": {
+            "top": 1353,
+            "left": 480,
+            "width": 189,
+            "height": 19
+          },
+          "scrollY": 0
+        }
+      ],
+      "maxScrollY": 1399
+    }
+  },
+  {
+    "current_url": "https://practicetestautomation.com/contact/",
     "target_url": "https://practicetestautomation.com/practice/",
     "content": {
       "title": "Practice | Practice Test Automation",
