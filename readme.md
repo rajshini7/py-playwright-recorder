@@ -119,7 +119,8 @@ py-create_tester/
 
 ## HOW TO EXECUTE
 CREATE VIRTUAL ENVIRONMENT
-bash
+
+```bash
 python -m venv .venv
 source .venv/bin/activate
 Windows:
@@ -128,25 +129,23 @@ powershell
 
 .venv\Scripts\activate
 INSTALL DEPENDENCIES
-bash
-Copy code
+
 pip install -r requirements.txt
 python -m playwright install
 CREATE_TEST (LOCAL ONLY)
-bash
+
 pytest tests/test_create_test.py -s
 Generates data/steps.json
 This phase is intentionally excluded from CI
 
 RUN_TEST AND VERIFY
-bash
-Copy code
+
 pytest tests/test_run_test.py \
   --html=reports/run_test-report.html \
   --self-contained-html \
   -v
 
-``
+```
 
 ## CI/CD READY
 Fully headless execution
@@ -160,9 +159,10 @@ Artifacts uploaded on every run
 Create_test excluded from CI
 
 Run_test enforced in pipeline
-``
+```
 
 ## EXPECTED OUTPUT
+
 SUCCESS
 All steps verified successfully
 
@@ -178,14 +178,15 @@ Screenshot embedded in report
 Stored vs Live content displayed
 
 CI job fails intentionally with evidence
-``
+```
 
 ## BRANCHING STRATEGY
 
+```bash
 main
 ├── staging
 └── development
 
-``
+```
 ## CREATED BY
 Rajeev S
